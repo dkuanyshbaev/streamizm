@@ -1,0 +1,16 @@
+[package]
+name = "streamizm"
+version = "0.1.0"
+authors = ["Denis K. <orca84@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+rocket = { version = "0.5.0-dev", path = "../Rocket/core/lib" }
+serde = "1.0.114"
+serde_derive = "1.0.114"
+
+[dependencies.rocket_contrib]
+version = "0.5.0-dev"
+path = "../Rocket/contrib/lib"
+default-features = false
+features = ["tera_templates", "serve"]
