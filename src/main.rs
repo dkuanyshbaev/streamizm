@@ -13,7 +13,6 @@ mod views;
 
 use rocket_contrib::serve::StaticFiles;
 use rocket_contrib::templates::Template;
-use views::{catchers, pages};
 
 #[launch]
 fn rocket() -> rocket::Rocket {
@@ -26,6 +25,16 @@ fn rocket() -> rocket::Rocket {
         .manage(config)
         .attach(Template::fairing())
         .mount("/static", StaticFiles::from("static/"))
-        .mount("/", routes![pages::index, pages::wip])
-        .register(catchers![catchers::not_found, catchers::internal_error])
+        .mount(
+            "/",
+            routes![
+                views::index,
+                views::home,
+                views::play,
+                views::events,
+                views::collabs,
+                views::terms
+            ],
+        )
+        .register(catchers![views::not_found, views::internal_error])
 }

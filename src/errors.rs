@@ -29,12 +29,3 @@ impl error::Error for SeasonsError {
         }
     }
 }
-
-// impl<'r> Responder<'r, 'static> for SeasonsError {
-//     fn respond_to(self, _: &'r Request<'_>) -> rocket::response::Result<'static> {
-//         match self {
-//             SeasonsError::NotFound => Err(Status::NotFound),
-//             _ => Err(Status::InternalServerError),
-//         }
-//     }
-// }
