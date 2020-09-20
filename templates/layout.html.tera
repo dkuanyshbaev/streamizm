@@ -24,8 +24,7 @@
                 <a href=#content class="skip-to-main sr-only-focusable" role=button>Skip to main content</a>
 
                 <a class="navbar-brand mr-auto logo_margin" href="/" aria-label="Click to go back to Homepage">
-                    <!-- <svg width=160 height=50 class=logo xmlns=http://www.w3.org/2000/svg viewBox="0 0 701 217"> -->
-                    <svg width=160 height=50 class="logo" xmlns=http://www.w3.org/2000/svg viewBox="0 0 701 217">
+                    <svg width=160 height=50 class=logo xmlns=http://www.w3.org/2000/svg viewBox="0 0 701 217">
                         <!-- <path d="M122.73 185.24l12.57&#45;15.05c8.77 7.2 18.58 11.4 29.58 11.4 8.37 0 12.7&#45;3.4 12.7&#45;8.25 0&#45;5.36&#45;4.2&#45;6.54&#45;17.28&#45;9.68&#45;19.23&#45;4.32&#45;33.5&#45;9.56&#45;33.5&#45;27.62 0&#45;17.27 13.87&#45;28.8 34.42&#45;28.8 15 0 26.83 4.32 36.38 12.3l&#45;11.38 16c&#45;8.2&#45;6.3&#45;17.28&#45;9.54&#45;25.65&#45;9.54&#45;7.2 0&#45;11.26 3.4&#45;11.26 7.85 0 5.5 4.32 7.33 17.67 10.2 20.15 4.32 33.1 10.07 33.1 27 0 18.06&#45;13.74 29.3&#45;36 29.3&#45;15.96&#45;.08&#45;30.48&#45;5.3&#45;41.35&#45;15.13zm190.7&#45;6.02l8 6.94&#45;10.87 12.56&#45;8.77&#45;7.6a49.08 49.08 0 0 1&#45;28.53 9.16c&#45;26.18 0&#45;48.25&#45;21.3&#45;48.25&#45;46.6s22.12&#45;46.46 48.3&#45;46.46 48.43 21.2 48.43 46.46a44 44 0 0 1&#45;8.3 25.52zm&#45;28.14&#45;2.48l&#45;9.28&#45;8.12 10.86&#45;12.56 9.56 8.24a26 26 0 0 0 2.22&#45;10.6c0&#45;14.13&#45;11.64&#45;26.17&#45;25.4&#45;26.17s&#45;25.4 12&#45;25.4 26.17 11.66 26.3 25.4 26.3a23.74 23.74 0 0 0 12.04&#45;3.26zm51.57&#45;17.4V108.8h22.38v49.47c0 12.7 8.12 21.73 19.37 21.73s19.5&#45;9 19.5&#45;21.73V108.8h22.25v50.52c0 24.08&#45;17.14 41&#45;41.75 41s&#45;41.75&#45;16.92&#45;41.75&#45;41zm158.23 26.3h&#45;35.6l&#45;5.24 13.1H429.1l35.6&#45;89.9h25.13l35.6 89.9H500.3zm&#45;6.93&#45;17.53l&#45;10.87&#45;27.62&#45;10.86 27.62zm102.35 30.62l&#45;19.77&#45;28.14h&#45;11v28.14h&#45;22.37v&#45;89.9h41.75c19.76 0 34.16 12.7 34.16 30.9 0 13.1&#45;7.46 23.42&#45;19.1 28.14l21.73 30.88zm&#45;30.76&#45;48.55H577c7.72 0 13.2&#45;4.2 13.2&#45;10.47s&#45;5.5&#45;10.47&#45;13.2&#45;10.47h&#45;17.26zm92.66&#45;21.34v14h44v20h&#45;44v15.87h48.43v20H630v&#45;89.9h70.8v20z" fill=#ffffff /> -->
                         <!-- <path d="M3.33 3.3h210.03v210.03H3.33z" fill=none stroke=#ffffff stroke&#45;miterlimit=10 stroke&#45;width=6 /> -->
                         <img src="/static/images/logo.svg">
@@ -82,112 +81,272 @@
                     </div>
                 </div>
             </section>
+
             <section class="py-6 py-lg-7">
                 <div class=container>
                     <div class=row>
                         <div class=col>
-                            <h2>Explore</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid px-0">
-                    <div class=row>
-                        <div class=col>
-                            <div class="swiper container">
-                                <div class="swiper-container overflow-visible" data-options='{"slidesPerView": 1, "breakpoints": {"768": {"slidesPerView": 2}, "992": {"slidesPerView": 3}}}'>
-                                    <div class=swiper-wrapper>
-                                        <div class=swiper-slide>
-                                            <div class="card shadow lift">
-                                                <div class=card-body>
-                                                    <svg width=40 height=40 class="mb-3 fill-secondary" xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
-                                                        <title>movie-celebrity</title>
-                                                        <path d=M19.868,15.5a1,1,0,0,0-1.736.992l4,7A1,1,0,0,0,23,24a.988.988,0,0,0,.495-.132,1,1,0,0,0,.372-1.364Z />
-                                                        <path d=M5.5,15.132a1,1,0,0,0-1.364.372l-4,7A1,1,0,0,0,.5,23.868.988.988,0,0,0,1,24a1,1,0,0,0,.869-.5l4-7A1,1,0,0,0,5.5,15.132Z />
-                                                        <path d=M3.75,4.5A.75.75,0,0,0,3,5.25v1.5a.75.75,0,0,0,1.5,0V5.25A.75.75,0,0,0,3.75,4.5Z />
-                                                        <path d=M7.5,3.75A.75.75,0,0,0,6.75,3H5.25a.75.75,0,0,0,0,1.5h1.5A.75.75,0,0,0,7.5,3.75Z />
-                                                        <path d=M3.75,3a.75.75,0,0,0,.75-.75V.75A.75.75,0,0,0,3,.75v1.5A.75.75,0,0,0,3.75,3Z />
-                                                        <path d=M.75,4.5h1.5a.75.75,0,0,0,0-1.5H.75a.75.75,0,0,0,0,1.5Z />
-                                                        <path d=M20.25,9.5a.75.75,0,0,0-.75.75v1.5a.75.75,0,0,0,1.5,0v-1.5A.75.75,0,0,0,20.25,9.5Z />
-                                                        <path d=M21.75,9.5h1.5a.75.75,0,0,0,0-1.5h-1.5a.75.75,0,0,0,0,1.5Z />
-                                                        <path d=M20.25,8A.75.75,0,0,0,21,7.25V5.75a.75.75,0,0,0-1.5,0v1.5A.75.75,0,0,0,20.25,8Z />
-                                                        <path d=M19.5,8.75A.75.75,0,0,0,18.75,8h-1.5a.75.75,0,0,0,0,1.5h1.5A.75.75,0,0,0,19.5,8.75Z />
-                                                        <path d=M14.305,9.347a.25.25,0,0,1-.012-.431A4.075,4.075,0,1,0,9.88,8.833a.25.25,0,0,1-.027.431,4.778,4.778,0,0,0-2.627,4.263v2.851a.5.5,0,0,0,.146.353.5.5,0,0,0,.354.147H8.957a.5.5,0,0,1,.5.45l.623,6.223a.5.5,0,0,0,.5.45h2.85a.5.5,0,0,0,.5-.45l.623-6.223a.5.5,0,0,1,.5-.45h1.231a.5.5,0,0,0,.354-.147.5.5,0,0,0,.146-.353V13.527A4.778,4.778,0,0,0,14.305,9.347ZM12.75,12.718a.75.75,0,0,1-1.5,0V11.026a.75.75,0,0,1,1.5,0Zm-.6-5.192a2.077,2.077,0,0,1-1.988-2.672.25.25,0,0,1,.369-.141,5.079,5.079,0,0,0,2.644.738,5.194,5.194,0,0,0,.753-.055.25.25,0,0,1,.21.066.253.253,0,0,1,.075.207A2.076,2.076,0,0,1,12.151,7.526Z />
-                                                    </svg>
-                                                    <h3 class=h4>Opening ceremony</h3>
-                                                    <p class="font-size-6 text-muted mb-0">Nulla porttitor odio a suscipit facilisis at maecenas</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class=swiper-slide>
-                                            <div class="card shadow lift">
-                                                <div class=card-body>
-                                                    <svg width=40 height=40 class="mb-3 fill-secondary" xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
-                                                        <title>concert-microphone</title>
-                                                        <path d=M22.5,7.937a.5.5,0,0,1,.375-.484A1.5,1.5,0,0,0,24,6V2a2,2,0,0,0-2-2H2A2,2,0,0,0,0,2V6A1.5,1.5,0,0,0,1.125,7.453a.5.5,0,0,1,.375.484V21.5A.5.5,0,0,1,1,22a1,1,0,0,0,0,2H23a1,1,0,0,0,0-2,.5.5,0,0,1-.5-.5ZM2.5,5.5A.5.5,0,0,1,2,5V3.462A.25.25,0,0,1,2.44,3.3L3.972,5.087a.25.25,0,0,1-.189.413ZM4.314,2.413A.25.25,0,0,1,4.5,2H9.142a.25.25,0,0,1,.172.431L6.954,4.684a.5.5,0,0,1-.37.137.5.5,0,0,1-.355-.174Zm7.341.549a.5.5,0,0,1,.69,0l2.207,2.107a.25.25,0,0,1-.172.431H9.62a.25.25,0,0,1-.172-.431Zm3.031-.531A.25.25,0,0,1,14.858,2H19.5a.25.25,0,0,1,.189.413L17.771,4.647a.5.5,0,0,1-.355.174.5.5,0,0,1-.37-.137ZM21.56,3.3a.25.25,0,0,1,.44.163V5a.5.5,0,0,1-.5.5H20.217a.25.25,0,0,1-.189-.413Zm-9.38,17.02a.5.5,0,0,1,.64,0l1.487,1.239a.25.25,0,0,1-.16.442H10.853a.25.25,0,0,1-.16-.442ZM16.646,22a.25.25,0,0,1-.229-.35,1,1,0,0,0-.277-1.169l-2.46-2.05a.5.5,0,0,1-.18-.384V15.476a.25.25,0,0,1,.3-.245.96.96,0,0,0,.2.019,1,1,0,0,0,.448-1.894l-2.421-1.211a.5.5,0,0,1-.277-.439,2.249,2.249,0,1,0-1.313,2.09.5.5,0,0,1,.432.007l.356.177a.5.5,0,0,1,.276.447v3.62a.5.5,0,0,1-.18.384l-2.46,2.05a1,1,0,0,0-.277,1.169.25.25,0,0,1-.229.35H4a.5.5,0,0,1-.5-.5V8A.5.5,0,0,1,4,7.5H20a.5.5,0,0,1,.5.5V21.5a.5.5,0,0,1-.5.5Z />
-                                                    </svg>
-                                                    <h3 class=h4>Events</h3>
-                                                    <p class="font-size-6 text-muted mb-0">Duis eget euismod lectus. Curabitur cursus sed risus suscipit</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class=swiper-slide>
-                                            <div class="card shadow lift">
-                                                <div class=card-body>
-                                                    <svg width=40 height=40 class="mb-3 fill-secondary" xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
-                                                        <title>farmer&amp;apos;s-market-vendor</title>
-                                                        <path d=M22.672,3.768,12.658.111a2.016,2.016,0,0,0-1.33.005L1.343,3.763A2,2,0,0,0,0,5.652V23a1,1,0,0,0,2,0L2.014,6.345a1,1,0,0,1,.656-.938L11.642,2.12a1,1,0,0,1,.687,0l9.014,3.292A1,1,0,0,1,22,6.351V23a1,1,0,0,0,2,0V5.652A2,2,0,0,0,22.672,3.768Z />
-                                                        <rect x=4.5 y=17.999 width=15 height=6 rx=1 ry=1 />
-                                                        <path d=M9.9,13.863a4.87,4.87,0,0,0-2,1.883.5.5,0,0,0,.431.753h7.373a.5.5,0,0,0,.43-.754,4.875,4.875,0,0,0-2.023-1.89.249.249,0,0,1-.022-.435,3.926,3.926,0,1,0-4.166.008.25.25,0,0,1-.02.435Zm.252-4.316a.249.249,0,0,1,.364-.145,5.087,5.087,0,0,0,2.548.7,4.8,4.8,0,0,0,.564-.034.25.25,0,0,1,.277.28,1.925,1.925,0,1,1-3.753-.8Z />
-                                                    </svg>
-                                                    <h3 class=h4>Exhibitions and fairs</h3>
-                                                    <p class="font-size-6 text-muted mb-0">Maecenas sit amet gravida quam, sed scelerisque tortor</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class=swiper-slide>
-                                            <div class="card shadow lift">
-                                                <div class=card-body>
-                                                    <svg width=40 height=40 class="mb-3 fill-secondary" xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
-                                                        <title>champagne-cheers</title>
-                                                        <path d=M22.382,21.3l-1,.144a.5.5,0,0,1-.566-.419l-.492-3.17a.5.5,0,0,1,.289-.533,5.041,5.041,0,0,0,2.888-5.365c-1.771-7.577-1.037-4.446-2.527-10.787A1.492,1.492,0,0,0,19.3.02L15.653.55A.225.225,0,0,0,15.6.979a2.741,2.741,0,0,1,1.283,1.1.5.5,0,0,0,.5.236l1.3-.189a.5.5,0,0,1,.559.38l.574,2.445a.5.5,0,0,1-.415.609l-2.485.358a.5.5,0,0,0-.4.339L13.9,14.2a.5.5,0,0,0,.008.333A4.947,4.947,0,0,0,17.917,17.7a.5.5,0,0,1,.43.419L18.84,21.3a.5.5,0,0,1-.422.572l-.985.142a1,1,0,1,0,.287,1.978l4.948-.715a1,1,0,1,0-.286-1.978Zm-5.091-8.307a1.022,1.022,0,0,1-.145.011,1,1,0,1,1,.145-.011ZM18.964,9.86a1,1,0,0,1-.141-1.989,1.022,1.022,0,0,1,.145-.011,1,1,0,0,1,.141,1.99A1.191,1.191,0,0,1,18.964,9.86Zm.32,4.148a1,1,0,0,1,.846-1.132,1.019,1.019,0,0,1,.144-.011,1,1,0,1,1-.99,1.143Z />
-                                                        <path d=M15.948,3.97l0-.005a1.483,1.483,0,0,0-.839-1.834l-4.68-2A1.5,1.5,0,0,0,8.526.8L6.136,5.269h0L3.269,10.656A5.007,5.007,0,0,0,4.711,16.5a.5.5,0,0,1,.14.595L3.413,20.251a.5.5,0,0,1-.651.252l-.931-.4a1,1,0,0,0-.786,1.84l4.6,1.965a1,1,0,0,0,.786-1.84l-.908-.388a.5.5,0,0,1-.259-.667L6.7,17.871a.5.5,0,0,1,.521-.288,4.875,4.875,0,0,0,.639.042A5.006,5.006,0,0,0,12.488,14.5l1.88-5.72ZM6.857,13.652A1,1,0,1,1,6.33,12.34,1,1,0,0,1,6.857,13.652Zm.711-5.285a1,1,0,0,1,.921-.607.984.984,0,0,1,.391.08,1,1,0,1,1-1.312.527Zm2.789,4.285A1,1,0,1,1,9.83,11.34,1,1,0,0,1,10.357,12.652Zm2.536-5.789a.252.252,0,0,1-.134.15.247.247,0,0,1-.2,0L8.665,5.356a.249.249,0,0,1-.122-.348L9.964,2.351a.248.248,0,0,1,.318-.112L13.692,3.7a.25.25,0,0,1,.139.308Z />
-                                                    </svg>
-                                                    <h3 class=h4>Social events</h3>
-                                                    <p class="font-size-6 text-muted mb-0">In convallis eros sit amet hendrerit rhoncus. Donec pellentesque convallis</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class=swiper-slide>
-                                            <div class="card shadow lift">
-                                                <div class=card-body>
-                                                    <svg width=40 height=40 class="mb-3 fill-secondary" xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
-                                                        <title>party-decoration-1</title>
-                                                        <path d=M5.25,11a.75.75,0,0,0-.75.75V12a.5.5,0,0,1-.5.5H3.75a.75.75,0,0,0,0,1.5H4a.5.5,0,0,1,.5.5v.25a.75.75,0,0,0,1.5,0V14.5a.5.5,0,0,1,.5-.5h.25a.75.75,0,0,0,0-1.5H6.5A.5.5,0,0,1,6,12v-.25A.75.75,0,0,0,5.25,11Z />
-                                                        <path d=M21.75,20H21.5a.5.5,0,0,1-.5-.5v-.25a.75.75,0,0,0-1.5,0v.25a.5.5,0,0,1-.5.5h-.25a.75.75,0,0,0,0,1.5H19a.5.5,0,0,1,.5.5v.25a.75.75,0,0,0,1.5,0V22a.5.5,0,0,1,.5-.5h.25a.75.75,0,0,0,0-1.5Z />
-                                                        <path d=M15.25,3.5H16a.5.5,0,0,1,.5.5v.75a.75.75,0,0,0,1.5,0V4a.5.5,0,0,1,.5-.5h.75a.75.75,0,0,0,0-1.5H18.5a.5.5,0,0,1-.5-.5V.75a.75.75,0,0,0-1.5,0V1.5A.5.5,0,0,1,16,2h-.75a.75.75,0,0,0,0,1.5Z />
-                                                        <path d=M18.9,15.677l3.6-3.6a.711.711,0,0,1,.5-.208,1,1,0,0,0,.142-1.99C11.079,8.143,1.74.316,1.648.237A1,1,0,0,0,.353,1.762c.108.092.886.748,2.221,1.691A1,1,0,0,1,3,4.27v4.8A1,1,0,0,0,4.552,9.9L8.4,7.331A.545.545,0,0,1,8.953,7.3a.5.5,0,0,1,.265.349l1.116,5.583a.986.986,0,0,0,.667.754.962.962,0,0,0,.312.051,1.006,1.006,0,0,0,.674-.26l3.781-3.437a.324.324,0,0,1,.318-.068.282.282,0,0,1,.191.213l.936,4.682a1,1,0,0,0,1.687.511Z />
-                                                        <path d=M14.7,14.869A42.716,42.716,0,0,1,1.1,17.247c-.032,0-.068-.015-.095,0a1,1,0,0,0,0,2,.248.248,0,0,1,.2.1L4.359,23.6a1,1,0,0,0,.8.4,1.081,1.081,0,0,0,.15-.011,1,1,0,0,0,.793-.653L7.7,18.86a.329.329,0,0,1,.253-.212.282.282,0,0,1,.266.1l3.26,3.971a.991.991,0,0,0,.769.366.95.95,0,0,0,.175-.016,1,1,0,0,0,.771-.649l1.952-5.465a.311.311,0,0,1,.2-.191,1,1,0,0,0-.639-1.895Z />
-                                                        <circle cx=21.5 cy=7 r=1 />
-                                                        <circle cx=23 cy=17 r=1 />
-                                                    </svg>
-                                                    <h3 class=h4>After party</h3>
-                                                    <p class="font-size-6 text-muted mb-0">Pellentesque habitant morbi tristique senectus et malesuada egestas</p>
-                                                </div>
-                                            </div>
-                                        </div>
+                            <div class="row justify-content-between align-items-baseline">
+                                <div class=col>
+                                    <h2>Agenda</h2>
+                                </div>
+                                <div class="col-auto small">
+                                    <ul class="nav nav-tabs border-0" id=myTab role=tablist>
+                                        <li class=nav-item><a class="nav-link font-weight-bold px-2 border-0 active" id=day1-tab data-toggle=tab href=#day1 role=tab aria-controls=day1 aria-selected=true>Day 1</a></li>
+                                        <li class=nav-item><a class="nav-link font-weight-bold px-2 border-0" id=day2-tab data-toggle=tab href=#day2 role=tab aria-controls=day2 aria-selected=false>Day 2</a></li>
+                                        <li class=nav-item><a class="nav-link font-weight-bold px-2 border-0" id=day3-tab data-toggle=tab href=#day3 role=tab aria-controls=day3 aria-selected=false>Day 3</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class=tab-content id=myTabContent>
+                                <div class="tab-pane fade show active" id=day1 role=tabpanel aria-labelledby=day1-tab>
+                                    <div class=table-responsive>
+                                        <table class="table table-striped font-size-5 mb-0">
+                                            <thead>
+                                                <tr class="font-size-6 text-secondary">
+                                                    <th scope=col>Program</th>
+                                                    <th scope=col>Time</th>
+                                                    <th scope=col>Presenter</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Registration</td>
+                                                    <td>7:00am - 8:20am</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Welcoming remarks</td>
+                                                    <td>8:30am - 9:00am</td>
+                                                    <td>Austin Franklin</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Keynote: CEOs talk Square</td>
+                                                    <td>9:15am - 10:20am</td>
+                                                    <td>Alex Lawson</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>How the digital era will impact the economy</td>
+                                                    <td>10:30am - 12:30am</td>
+                                                    <td>Lance Hughes</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Launch break</td>
+                                                    <td>12:40am - 1:30pm</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>The future of banking</td>
+                                                    <td>2:00pm - 2:45pm</td>
+                                                    <td>Jonathan Arnold</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>How is Google harnessing the word</td>
+                                                    <td>2:55pm - 3:25pm</td>
+                                                    <td>Clifton Adams</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>From disruption to transformation</td>
+                                                    <td>3:30pm - 4:15pm</td>
+                                                    <td>Derek Williamson</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id=day2 role=tabpanel aria-labelledby=day2-tab>
+                                    <div class=table-responsive>
+                                        <table class="table table-striped font-size-5 mb-0">
+                                            <thead>
+                                                <tr class="font-size-6 text-secondary">
+                                                    <th scope=col>Program</th>
+                                                    <th scope=col>Time</th>
+                                                    <th scope=col>Presenter</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Lorem ipsum dolor sit amet adipiscing elit</td>
+                                                    <td>7:00am - 8:20am</td>
+                                                    <td>Clifton Adams</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Morbi maximus erat vulputate fermentum</td>
+                                                    <td>8:30am - 9:00am</td>
+                                                    <td>Austin Franklin</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Pellentesque fermentum arcu rutrum porttitor</td>
+                                                    <td>9:15am - 10:20am</td>
+                                                    <td>Alex Lawson</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>In egestas quam vel justo pharetra</td>
+                                                    <td>10:30am - 12:30am</td>
+                                                    <td>Lance Hughes</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Launch break</td>
+                                                    <td>12:40am - 1:30pm</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Suspendisse in dolor malesuada pulvinar urna</td>
+                                                    <td>2:00pm - 2:45pm</td>
+                                                    <td>Jonathan Arnold</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Ut pretium lectus nunc auctor pharetra</td>
+                                                    <td>2:55pm - 3:25pm</td>
+                                                    <td>Clifton Adams</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>In mollis lorem gravida mattis porta</td>
+                                                    <td>3:30pm - 4:15pm</td>
+                                                    <td>Derek Williamson</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id=day3 role=tabpanel aria-labelledby=day3-tab>
+                                    <div class=table-responsive>
+                                        <table class="table table-striped font-size-5 mb-0">
+                                            <thead>
+                                                <tr class="font-size-6 text-secondary">
+                                                    <th scope=col>Program</th>
+                                                    <th scope=col>Time</th>
+                                                    <th scope=col>Presenter</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Aenean pretium ante sed orci</td>
+                                                    <td>7:00am - 8:20am</td>
+                                                    <td>Clifton Adams</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Etiam tincidunt augue nec venenatis</td>
+                                                    <td>8:30am - 9:00am</td>
+                                                    <td>Austin Franklin</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Donec pellentesque metus finibus est vehicula</td>
+                                                    <td>9:15am - 10:20am</td>
+                                                    <td>Alex Lawson</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Phasellus tempus quam nec quam</td>
+                                                    <td>10:30am - 12:30am</td>
+                                                    <td>Lance Hughes</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Launch break</td>
+                                                    <td>12:40am - 1:30pm</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Proin aliquet nibh eu vestibulum rhoncus</td>
+                                                    <td>2:00pm - 2:45pm</td>
+                                                    <td>Jonathan Arnold</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Donec elementum nisl sit amet</td>
+                                                    <td>2:55pm - 3:25pm</td>
+                                                    <td>Clifton Adams</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Ut consequat ligula nec semper iaculis</td>
+                                                    <td>3:30pm - 4:15pm</td>
+                                                    <td>Derek Williamson</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="container mt-4">
-                    <div class="d-flex justify-content-end">
-                        <div class="swiper-btn swiper-btn-prev" tabindex=0 role=button aria-label="Previous slide"></div>
-                        <div class="swiper-btn swiper-btn-next ml-3" tabindex=0 role=button aria-label="Next slide"></div>
-                    </div>
-                </div>
             </section>
+
+             <section class="py-13 py-lg-15 mb-6 mb-lg-7">
+            <div class="bg-image bg-cover overlay overlay-primary overlay-40" data-jarallax data-speed=.8 style="background-image: url(static/images/photos/photo-20.jpg);">
+               <div class="container h-100">
+                  <div class="row align-items-center justify-content-center h-100 text-center text-white">
+                     <div class=col-lg-6>
+                        <h2>Watch our video</h2>
+                        <div class=gallery>
+                           <div>
+                              <figure class=mb-0>
+                                 <a href=# class=text-white data-type=video data-video='<div class="d-flex align-items-center p-3 p-lg-8 h-100"><div class="embed-responsive embed-responsive-16by9"><iframe class="pswp__video embed-responsive-item" src="https://www.youtube.com/embed/hNQFjqDvPhA" frameborder="0" allowfullscreen></iframe></div></div>'>
+                                    <svg width=50 height=50 xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
+                                       <title>button-play-1</title>
+                                       <path d=M12,0A12,12,0,1,0,24,12,12.013,12.013,0,0,0,12,0Zm4.828,12.894L9.447,16.584h0A1,1,0,0,1,8,15.69V8.308a1,1,0,0,1,1.446-.895L16.829,11.1A1,1,0,0,1,16.828,12.893Z />
+                                    </svg>
+                                 </a>
+                                 <figcaption class=sr-only>Drone 4k free footage - fly through light house Free stock video 2016</figcaption>
+                              </figure>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="py-6 py-lg-7" id=content>
+            <div class=container>
+               <div class=row>
+                  <div class="col-md-7 col-lg-8" data-aos=fade-right>
+                     <p class="lead mb-4 mb-md-0"><strong>Integer sagittis hendrerit massa vitae.</strong> Suspendisse potenti, morbi auctor odio non lobortis sollicitudinm auris. Phasellus blandit nunc accumsan diam porttitor, eget sagittis dapibus.<br>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus eu erat neque.</p>
+                  </div>
+                  <div class="col-md-5 col-lg-4" data-aos=fade-left>
+                     <p class="lead mb-0">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himene. Phasellus eu erat neque.</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="bg-primary py-6 mt-6 mb-7 py-lg-7 mt-lg-7 mb-lg-8 text-white">
+            <div class=container>
+               <div class=row>
+                  <div class="col-md mb-6 mb-md-0" data-aos=fade-up>
+                     <svg width=40 height=40 class=mb-3 xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
+                        <title>design-tool-pen-station</title>
+                        <path d=M21.459,16.5a4,4,0,0,0-4-4h-.5V12a1,1,0,0,0-1-1h-12a1,1,0,0,0-1,1v9.5a2.5,2.5,0,0,0,2.5,2.5h9a2.5,2.5,0,0,0,2.5-2.5v-1h.5A4,4,0,0,0,21.459,16.5Zm-4,2h-.25a.249.249,0,0,1-.25-.25v-3.5a.249.249,0,0,1,.25-.25h.25a2,2,0,1,1,0,4Z />
+                        <path d=M5.649,2.864a.249.249,0,0,0,.017-.429L3.3.905a.5.5,0,0,0-.75.511l.422,2.53a.25.25,0,0,0,.366.178Z />
+                        <path d=M3.646,5.094a.25.25,0,0,0-.1.334l2.22,4.3a.5.5,0,0,0,.445.27h3a.5.5,0,0,0,.438-.741l-3.026-5.5a.252.252,0,0,0-.339-.1Z />
+                        <path d=M13.539,7.293l-.007,0a3.525,3.525,0,0,1-.636-.348.252.252,0,0,0-.361.084L11.293,9.257A.5.5,0,0,0,11.73,10h1.832a.5.5,0,0,0,.468-.323L14.7,7.893a.251.251,0,0,0-.2-.337,3.526,3.526,0,0,1-.68-.156C13.727,7.368,13.633,7.333,13.539,7.293Z />
+                        <path d=M17.017,2.815a3.679,3.679,0,0,0-2.81-2.8.5.5,0,0,0-.536.761c.529.805.21,1.282-.353,1.994a3.621,3.621,0,0,0-.542.819,2.037,2.037,0,0,0,1.151,2.783,2.044,2.044,0,0,0,2.245-.257A3.363,3.363,0,0,0,17.017,2.815Z />
+                     </svg>
+                     <h2 class="h5 mb-2">Branding</h2>
+                     <p class="font-size-5 mb-0">Etiam tincidunt tellus eget lorem ultrices auris accumsan suspendisse.</p>
+                  </div>
+                  <div class="col-md mb-6 mb-md-0" data-aos=fade-up data-aos-delay=50>
+                     <svg width=40 height=40 class=mb-3 xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
+                        <title>programming-code</title>
+                        <path d=M0,20.5a2.006,2.006,0,0,0,2,2H22a2.006,2.006,0,0,0,2-2V3.5a2.006,2.006,0,0,0-2-2H2a2,2,0,0,0-2,2ZM2.25,5A1.252,1.252,0,0,1,3.5,3.75H21A1.252,1.252,0,0,1,22.25,5V19.5A1.251,1.251,0,0,1,21,20.75H3.5A1.251,1.251,0,0,1,2.25,19.5Z />
+                        <path d=M20.75,5.75a.5.5,0,0,0-.5-.5h-16a.5.5,0,0,0-.5.5v13a.5.5,0,0,0,.5.5h16a.5.5,0,0,0,.5-.5ZM10.707,10.793a1,1,0,0,1,0,1.414l-2.5,2.5a1,1,0,1,1-1.414-1.414l1.616-1.616a.25.25,0,0,0,0-.354L6.793,9.707A1,1,0,1,1,8.207,8.293ZM17.5,13.5a1,1,0,0,1-1,1h-4a1,1,0,0,1,0-2h4A1,1,0,0,1,17.5,13.5Z />
+                     </svg>
+                     <h2 class="h5 mb-2">Development</h2>
+                     <p class="font-size-5 mb-0">Suspendisse at porta ligula, sed finibus metus. Aliquam tincidunt nisl.</p>
+                  </div>
+                  <div class="col-md mb-0" data-aos=fade-up data-aos-delay=100>
+                     <svg width=40 height=40 class=mb-3 xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
+                        <title>seo-search-graph-first-place</title>
+                        <path d=M18.25,22.5H.75a.75.75,0,0,0,0,1.5h17.5a.75.75,0,0,0,0-1.5Z />
+                        <path d=M1.5,9.5A.5.5,0,0,0,1,10V21.25a.25.25,0,0,0,.25.25h3.5A.25.25,0,0,0,5,21.25V10a.5.5,0,0,0-.5-.5Z />
+                        <path d=M7,21.25a.25.25,0,0,0,.25.25h3.5a.25.25,0,0,0,.25-.25v-6.5c0-.276-.224-.25-.5-.25h-3A.5.5,0,0,0,7,15Z />
+                        <path d=M16.75,21.5a.25.25,0,0,0,.25-.25V17c0-.276-.224-.25-.5-.25h-3a.5.5,0,0,0-.5.5v4a.25.25,0,0,0,.25.25Z />
+                        <path d=M21.184,11.341a.249.249,0,0,1-.028-.32,7,7,0,1,0-1.707,1.707.25.25,0,0,1,.321.027l2.523,2.524a1,1,0,0,0,1.414-1.414ZM15.429,12a5,5,0,1,1,5-5A5.006,5.006,0,0,1,15.429,12Z />
+                     </svg>
+                     <h2 class="h5 mb-2">SEO, Analytics</h2>
+                     <p class="font-size-5 mb-0">Orci varius natoque penatibus et magnis dis parturient montes portaling ipsum.</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+
             <section class="pt-6 pb-4 pt-lg-7 pb-lg-5">
                 <div class=container>
                     <div class=row>
@@ -469,193 +628,6 @@
                     </div>
                 </div>
             </section>
-            <section class="py-6 py-lg-7">
-                <div class=container>
-                    <div class=row>
-                        <div class=col>
-                            <div class="row justify-content-between align-items-baseline">
-                                <div class=col>
-                                    <h2>Agenda</h2>
-                                </div>
-                                <div class="col-auto small">
-                                    <ul class="nav nav-tabs border-0" id=myTab role=tablist>
-                                        <li class=nav-item><a class="nav-link font-weight-bold px-2 border-0 active" id=day1-tab data-toggle=tab href=#day1 role=tab aria-controls=day1 aria-selected=true>Day 1</a></li>
-                                        <li class=nav-item><a class="nav-link font-weight-bold px-2 border-0" id=day2-tab data-toggle=tab href=#day2 role=tab aria-controls=day2 aria-selected=false>Day 2</a></li>
-                                        <li class=nav-item><a class="nav-link font-weight-bold px-2 border-0" id=day3-tab data-toggle=tab href=#day3 role=tab aria-controls=day3 aria-selected=false>Day 3</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class=tab-content id=myTabContent>
-                                <div class="tab-pane fade show active" id=day1 role=tabpanel aria-labelledby=day1-tab>
-                                    <div class=table-responsive>
-                                        <table class="table table-striped font-size-5 mb-0">
-                                            <thead>
-                                                <tr class="font-size-6 text-secondary">
-                                                    <th scope=col>Program</th>
-                                                    <th scope=col>Time</th>
-                                                    <th scope=col>Presenter</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>Registration</td>
-                                                    <td>7:00am - 8:20am</td>
-                                                    <td>-</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Welcoming remarks</td>
-                                                    <td>8:30am - 9:00am</td>
-                                                    <td>Austin Franklin</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Keynote: CEOs talk Square</td>
-                                                    <td>9:15am - 10:20am</td>
-                                                    <td>Alex Lawson</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>How the digital era will impact the economy</td>
-                                                    <td>10:30am - 12:30am</td>
-                                                    <td>Lance Hughes</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Launch break</td>
-                                                    <td>12:40am - 1:30pm</td>
-                                                    <td>-</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>The future of banking</td>
-                                                    <td>2:00pm - 2:45pm</td>
-                                                    <td>Jonathan Arnold</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>How is Google harnessing the word</td>
-                                                    <td>2:55pm - 3:25pm</td>
-                                                    <td>Clifton Adams</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>From disruption to transformation</td>
-                                                    <td>3:30pm - 4:15pm</td>
-                                                    <td>Derek Williamson</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id=day2 role=tabpanel aria-labelledby=day2-tab>
-                                    <div class=table-responsive>
-                                        <table class="table table-striped font-size-5 mb-0">
-                                            <thead>
-                                                <tr class="font-size-6 text-secondary">
-                                                    <th scope=col>Program</th>
-                                                    <th scope=col>Time</th>
-                                                    <th scope=col>Presenter</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>Lorem ipsum dolor sit amet adipiscing elit</td>
-                                                    <td>7:00am - 8:20am</td>
-                                                    <td>Clifton Adams</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Morbi maximus erat vulputate fermentum</td>
-                                                    <td>8:30am - 9:00am</td>
-                                                    <td>Austin Franklin</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Pellentesque fermentum arcu rutrum porttitor</td>
-                                                    <td>9:15am - 10:20am</td>
-                                                    <td>Alex Lawson</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>In egestas quam vel justo pharetra</td>
-                                                    <td>10:30am - 12:30am</td>
-                                                    <td>Lance Hughes</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Launch break</td>
-                                                    <td>12:40am - 1:30pm</td>
-                                                    <td>-</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Suspendisse in dolor malesuada pulvinar urna</td>
-                                                    <td>2:00pm - 2:45pm</td>
-                                                    <td>Jonathan Arnold</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Ut pretium lectus nunc auctor pharetra</td>
-                                                    <td>2:55pm - 3:25pm</td>
-                                                    <td>Clifton Adams</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>In mollis lorem gravida mattis porta</td>
-                                                    <td>3:30pm - 4:15pm</td>
-                                                    <td>Derek Williamson</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id=day3 role=tabpanel aria-labelledby=day3-tab>
-                                    <div class=table-responsive>
-                                        <table class="table table-striped font-size-5 mb-0">
-                                            <thead>
-                                                <tr class="font-size-6 text-secondary">
-                                                    <th scope=col>Program</th>
-                                                    <th scope=col>Time</th>
-                                                    <th scope=col>Presenter</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>Aenean pretium ante sed orci</td>
-                                                    <td>7:00am - 8:20am</td>
-                                                    <td>Clifton Adams</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Etiam tincidunt augue nec venenatis</td>
-                                                    <td>8:30am - 9:00am</td>
-                                                    <td>Austin Franklin</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Donec pellentesque metus finibus est vehicula</td>
-                                                    <td>9:15am - 10:20am</td>
-                                                    <td>Alex Lawson</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Phasellus tempus quam nec quam</td>
-                                                    <td>10:30am - 12:30am</td>
-                                                    <td>Lance Hughes</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Launch break</td>
-                                                    <td>12:40am - 1:30pm</td>
-                                                    <td>-</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Proin aliquet nibh eu vestibulum rhoncus</td>
-                                                    <td>2:00pm - 2:45pm</td>
-                                                    <td>Jonathan Arnold</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Donec elementum nisl sit amet</td>
-                                                    <td>2:55pm - 3:25pm</td>
-                                                    <td>Clifton Adams</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>Ut consequat ligula nec semper iaculis</td>
-                                                    <td>3:30pm - 4:15pm</td>
-                                                    <td>Derek Williamson</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <section class="py-6 py-lg-7 mt-6 mt-lg-7 bg-light">
                 <div class=container>
                     <div class="row justify-content-center text-center">
@@ -695,6 +667,84 @@
                     </div>
                 </div>
             </section>
+
+            <section class="py-6 mb-6 py-lg-7 mb-lg-7">
+            <div class="container-fluid px-lg-0">
+               <div class="row align-items-center">
+                  <div class="col-lg-6 mb-5 mb-lg-0">
+                     <div class="py-12 py-lg-15">
+                        <div class="bg-image bg-cover mr-lg-5" style="background-image: url(static/images/photos/photo-78.jpg);"></div>
+                     </div>
+                  </div>
+                  <div class=col-lg-4>
+                     <h3 class=h2>Our studio</h3>
+                     <p>Suspendisse rhoncus dolor at lorem laoreet vehicula. Vestibulum volutpat faucibus massa, et consequat leo finibus non</p>
+                     <div class=d-flex data-aos=fade-left>
+                        <div class="d-flex align-items-start mt-1">
+                           <svg class=fill-secondary width=16 height=16 xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
+                              <title>check</title>
+                              <path d=M23.146,5.4,20.354,2.6a.5.5,0,0,0-.708,0L7.854,14.4a.5.5,0,0,1-.708,0L4.354,11.6a.5.5,0,0,0-.708,0L.854,14.4a.5.5,0,0,0,0,.707L7.146,21.4a.5.5,0,0,0,.708,0L23.146,6.1A.5.5,0,0,0,23.146,5.4Z />
+                           </svg>
+                        </div>
+                        <div class=ml-2>
+                           <p class="font-size-5 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
+                     </div>
+                     <div class=d-flex data-aos=fade-left data-aos-delay=100>
+                        <div class="d-flex align-items-start mt-1">
+                           <svg class=fill-secondary width=16 height=16 xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
+                              <title>check</title>
+                              <path d=M23.146,5.4,20.354,2.6a.5.5,0,0,0-.708,0L7.854,14.4a.5.5,0,0,1-.708,0L4.354,11.6a.5.5,0,0,0-.708,0L.854,14.4a.5.5,0,0,0,0,.707L7.146,21.4a.5.5,0,0,0,.708,0L23.146,6.1A.5.5,0,0,0,23.146,5.4Z />
+                           </svg>
+                        </div>
+                        <div class=ml-2>
+                           <p class="font-size-5 mb-3">Duis maximus erat non ligula dignissim</p>
+                        </div>
+                     </div>
+                     <div class=d-flex data-aos=fade-left data-aos-delay=200>
+                        <div class="d-flex align-items-start mt-1">
+                           <svg class=fill-secondary width=16 height=16 xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
+                              <title>check</title>
+                              <path d=M23.146,5.4,20.354,2.6a.5.5,0,0,0-.708,0L7.854,14.4a.5.5,0,0,1-.708,0L4.354,11.6a.5.5,0,0,0-.708,0L.854,14.4a.5.5,0,0,0,0,.707L7.146,21.4a.5.5,0,0,0,.708,0L23.146,6.1A.5.5,0,0,0,23.146,5.4Z />
+                           </svg>
+                        </div>
+                        <div class=ml-2>
+                           <p class="font-size-5 mb-3">Curabitur varius nunc a turpis eleifend tincidunt</p>
+                        </div>
+                     </div>
+                     <div class=d-flex data-aos=fade-left data-aos-delay=300>
+                        <div class="d-flex align-items-start mt-1">
+                           <svg class=fill-secondary width=16 height=16 xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
+                              <title>check</title>
+                              <path d=M23.146,5.4,20.354,2.6a.5.5,0,0,0-.708,0L7.854,14.4a.5.5,0,0,1-.708,0L4.354,11.6a.5.5,0,0,0-.708,0L.854,14.4a.5.5,0,0,0,0,.707L7.146,21.4a.5.5,0,0,0,.708,0L23.146,6.1A.5.5,0,0,0,23.146,5.4Z />
+                           </svg>
+                        </div>
+                        <div class=ml-2>
+                           <p class="font-size-5 mb-3">Vivamus pretium tortor ac accumsan congue</p>
+                        </div>
+                     </div>
+                     <div class=d-flex data-aos=fade-left data-aos-delay=300>
+                        <div class="d-flex align-items-start mt-1">
+                           <svg class=fill-secondary width=16 height=16 xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
+                              <title>check</title>
+                              <path d=M23.146,5.4,20.354,2.6a.5.5,0,0,0-.708,0L7.854,14.4a.5.5,0,0,1-.708,0L4.354,11.6a.5.5,0,0,0-.708,0L.854,14.4a.5.5,0,0,0,0,.707L7.146,21.4a.5.5,0,0,0,.708,0L23.146,6.1A.5.5,0,0,0,23.146,5.4Z />
+                           </svg>
+                        </div>
+                        <div class=ml-2>
+                           <p class="font-size-5 mb-3">Aliquam congue nunc malesuada arcu</p>
+                        </div>
+                     </div>
+                     <a href=# class="btn btn-primary text-uppercase d-inline-flex align-items-center mt-5">
+                        Contact Us
+                        <svg width=16 height=16 class=ml-2 xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
+                           <title>arrow-right-1</title>
+                           <path d=M19.5,12a2.3,2.3,0,0,1-.78,1.729L7.568,23.54a1.847,1.847,0,0,1-2.439-2.773l9.752-8.579a.25.25,0,0,0,0-.376L5.129,3.233A1.847,1.847,0,0,1,7.568.46l11.148,9.808A2.31,2.31,0,0,1,19.5,12Z></path>
+                        </svg>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
         </main>
 
 
