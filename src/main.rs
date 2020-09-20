@@ -26,6 +26,6 @@ fn rocket() -> rocket::Rocket {
         .manage(config)
         .attach(Template::fairing())
         .mount("/static", StaticFiles::from("static/"))
-        .mount("/", routes![pages::index,])
+        .mount("/", routes![pages::index, pages::wip])
         .register(catchers![catchers::not_found, catchers::internal_error])
 }

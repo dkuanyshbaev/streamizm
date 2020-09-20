@@ -6,3 +6,8 @@ use rocket_contrib::templates::Template;
 pub fn index() -> Template {
     Template::render("index", NoContext {})
 }
+
+#[get("/wip")]
+pub fn wip() -> Template {
+    Template::render("wip", NoContext {})
+}
