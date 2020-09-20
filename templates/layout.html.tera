@@ -49,19 +49,20 @@
 
         <main>
             <section class="py-13 py-lg-15 vh-75" id=content>
-                <div class="bg-primary bg-image bg-cover overlay overlay-primary overlay-70" data-jarallax data-speed=.8 style="background-image: url(static/images/photos/photo-59.jpg);">
+                <!-- <div class="bg&#45;primary bg&#45;image bg&#45;cover overlay overlay&#45;primary overlay&#45;70" data&#45;jarallax data&#45;speed=.8 style="background&#45;image: url(static/images/photos/photo&#45;59.jpg);"> -->
+                <div class="bg-primary bg-image bg-cover overlay overlay-primary overlay-70" data-jarallax data-speed=.8 style="background-image: url(static/3.jpg);">
                     <div class="container h-100">
                         <div class="row align-items-center h-100 text-white" data-aos=fade-down>
                             <div class=col>
-                                <p class="small mb-n2 opacity-70">May 13-15, 2020<br>Digital Finance Institute - Toronto, Canada</p>
-                                <h1 class="display-2 mb-5">Square conf</h1>
+                                <p class="small mb-n2 opacity-70">October 2-4, 2020<br>Goethe Institut, Vladivostok - Berlin</p>
+                                <h1 class="display-2 mb-5">TheName</h1>
                                 <a href=#pricing data-scroll class="btn btn-secondary text-uppercase d-inline-flex align-items-center">
                                     Reserve your spot
-                                    <svg width=20 height=20 class=ml-2 xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
-                                        <title>ticket-two</title>
-                                        <path d=M14.5,7V17.75a.25.25,0,0,0,.25.25H21.5a1,1,0,0,0,1-1V1a1,1,0,0,0-1-1h-10a1,1,0,0,0-1,1V4.75a.25.25,0,0,0,.25.25H12.5A2,2,0,0,1,14.5,7Zm3.75,7a.75.75,0,1,1,.75-.75A.75.75,0,0,1,18.25,14Zm2.5-1.5a.75.75,0,1,1-.75.75A.75.75,0,0,1,20.75,12.5Zm-3.3-7.9a.75.75,0,0,1-.9-1.2l1.2-.9a1.25,1.25,0,0,1,2,1,.75.75,0,0,1-.012.134l-.821,4.517a.087.087,0,0,0,.018.069A.085.085,0,0,0,19,8.25a.75.75,0,0,1,0,1.5H17a.75.75,0,0,1,0-1.5h.165a.25.25,0,0,0,.246-.205l.72-3.955Zm-1.7,7.9a.75.75,0,1,1-.75.75A.75.75,0,0,1,15.75,12.5Z />
-                                        <path d=M2.5,24h10a1,1,0,0,0,1-1V7a1,1,0,0,0-1-1H2.5a1,1,0,0,0-1,1V23A1,1,0,0,0,2.5,24Zm6.25-4a.75.75,0,1,1,.75-.75A.75.75,0,0,1,8.75,20ZM12,19.25a.75.75,0,1,1-.75-.75A.75.75,0,0,1,12,19.25ZM5.97,14.47l3.613-3.614a.572.572,0,0,0,.167-.4.7.7,0,0,0-1.369-.224.75.75,0,1,1-1.424-.473,2.2,2.2,0,0,1,4.293.7,2.087,2.087,0,0,1-.606,1.464L8.737,13.823a.25.25,0,0,0,.177.427H9.5a.75.75,0,0,1,0,1.5h-3a.75.75,0,0,1-.53-1.28Zm.28,4.03a.75.75,0,1,1-.75.75A.75.75,0,0,1,6.25,18.5Zm-2.5,0a.75.75,0,1,1-.75.75A.75.75,0,0,1,3.75,18.5Z />
-                                    </svg>
+                                    <!-- <svg width=20 height=20 class=ml&#45;2 xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24"> -->
+                                    <!--     <title>ticket&#45;two</title> -->
+                                    <!--     <path d=M14.5,7V17.75a.25.25,0,0,0,.25.25H21.5a1,1,0,0,0,1&#45;1V1a1,1,0,0,0&#45;1&#45;1h&#45;10a1,1,0,0,0&#45;1,1V4.75a.25.25,0,0,0,.25.25H12.5A2,2,0,0,1,14.5,7Zm3.75,7a.75.75,0,1,1,.75&#45;.75A.75.75,0,0,1,18.25,14Zm2.5&#45;1.5a.75.75,0,1,1&#45;.75.75A.75.75,0,0,1,20.75,12.5Zm&#45;3.3&#45;7.9a.75.75,0,0,1&#45;.9&#45;1.2l1.2&#45;.9a1.25,1.25,0,0,1,2,1,.75.75,0,0,1&#45;.012.134l&#45;.821,4.517a.087.087,0,0,0,.018.069A.085.085,0,0,0,19,8.25a.75.75,0,0,1,0,1.5H17a.75.75,0,0,1,0&#45;1.5h.165a.25.25,0,0,0,.246&#45;.205l.72&#45;3.955Zm&#45;1.7,7.9a.75.75,0,1,1&#45;.75.75A.75.75,0,0,1,15.75,12.5Z /> -->
+                                    <!--     <path d=M2.5,24h10a1,1,0,0,0,1&#45;1V7a1,1,0,0,0&#45;1&#45;1H2.5a1,1,0,0,0&#45;1,1V23A1,1,0,0,0,2.5,24Zm6.25&#45;4a.75.75,0,1,1,.75&#45;.75A.75.75,0,0,1,8.75,20ZM12,19.25a.75.75,0,1,1&#45;.75&#45;.75A.75.75,0,0,1,12,19.25ZM5.97,14.47l3.613&#45;3.614a.572.572,0,0,0,.167&#45;.4.7.7,0,0,0&#45;1.369&#45;.224.75.75,0,1,1&#45;1.424&#45;.473,2.2,2.2,0,0,1,4.293.7,2.087,2.087,0,0,1&#45;.606,1.464L8.737,13.823a.25.25,0,0,0,.177.427H9.5a.75.75,0,0,1,0,1.5h&#45;3a.75.75,0,0,1&#45;.53&#45;1.28Zm.28,4.03a.75.75,0,1,1&#45;.75.75A.75.75,0,0,1,6.25,18.5Zm&#45;2.5,0a.75.75,0,1,1&#45;.75.75A.75.75,0,0,1,3.75,18.5Z /> -->
+                                    <!-- </svg> -->
                                 </a>
                             </div>
                         </div>
@@ -72,7 +73,7 @@
                 <div class=container>
                     <div class=row>
                         <div class=col-lg>
-                            <h2 class=h3>What is Square conference?</h2>
+                            <h2 class=h3>What is 101Seasons?</h2>
                         </div>
                         <div class="col-lg font-size-6">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras et lacus mollis, maximus metus vel, egestas nisl. Praesent neque lorem, luctus non metus id, finibus fermentum velit.</p>
