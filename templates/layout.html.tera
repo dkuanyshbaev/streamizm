@@ -16,19 +16,19 @@
         <meta name=msapplication-TileColor content=#ffffff>
         <meta name=theme-color content=#ffffff>
         <link href=static/css/theme.min.css rel=stylesheet>
+        <link href=static/css/custom.css rel=stylesheet>
     </head>
     <body>
         <header class="navbar navbar-expand-lg align-items-center w-100 position-absolute z-index-10 navbar-dark">
             <div class="position-relative container-fluid">
                 <a href=#content class="skip-to-main sr-only-focusable" role=button>Skip to main content</a>
 
-                <a class="navbar-brand mr-auto" href="/" aria-label="Click to go back to Homepage">
-                    <!-- <div class="logo"> -->
-                    <!--     <img src="/static/images/logo.svg" width=160 height=50> -->
-                    <!-- </div> -->
-                    <svg width=160 height=50 class=logo xmlns=http://www.w3.org/2000/svg viewBox="0 0 701 217">
-                        <path d="M122.73 185.24l12.57-15.05c8.77 7.2 18.58 11.4 29.58 11.4 8.37 0 12.7-3.4 12.7-8.25 0-5.36-4.2-6.54-17.28-9.68-19.23-4.32-33.5-9.56-33.5-27.62 0-17.27 13.87-28.8 34.42-28.8 15 0 26.83 4.32 36.38 12.3l-11.38 16c-8.2-6.3-17.28-9.54-25.65-9.54-7.2 0-11.26 3.4-11.26 7.85 0 5.5 4.32 7.33 17.67 10.2 20.15 4.32 33.1 10.07 33.1 27 0 18.06-13.74 29.3-36 29.3-15.96-.08-30.48-5.3-41.35-15.13zm190.7-6.02l8 6.94-10.87 12.56-8.77-7.6a49.08 49.08 0 0 1-28.53 9.16c-26.18 0-48.25-21.3-48.25-46.6s22.12-46.46 48.3-46.46 48.43 21.2 48.43 46.46a44 44 0 0 1-8.3 25.52zm-28.14-2.48l-9.28-8.12 10.86-12.56 9.56 8.24a26 26 0 0 0 2.22-10.6c0-14.13-11.64-26.17-25.4-26.17s-25.4 12-25.4 26.17 11.66 26.3 25.4 26.3a23.74 23.74 0 0 0 12.04-3.26zm51.57-17.4V108.8h22.38v49.47c0 12.7 8.12 21.73 19.37 21.73s19.5-9 19.5-21.73V108.8h22.25v50.52c0 24.08-17.14 41-41.75 41s-41.75-16.92-41.75-41zm158.23 26.3h-35.6l-5.24 13.1H429.1l35.6-89.9h25.13l35.6 89.9H500.3zm-6.93-17.53l-10.87-27.62-10.86 27.62zm102.35 30.62l-19.77-28.14h-11v28.14h-22.37v-89.9h41.75c19.76 0 34.16 12.7 34.16 30.9 0 13.1-7.46 23.42-19.1 28.14l21.73 30.88zm-30.76-48.55H577c7.72 0 13.2-4.2 13.2-10.47s-5.5-10.47-13.2-10.47h-17.26zm92.66-21.34v14h44v20h-44v15.87h48.43v20H630v-89.9h70.8v20z" fill=#ffffff />
-                        <path d="M3.33 3.3h210.03v210.03H3.33z" fill=none stroke=#ffffff stroke-miterlimit=10 stroke-width=6 />
+                <a class="navbar-brand mr-auto logo_margin" href="/" aria-label="Click to go back to Homepage">
+                    <!-- <svg width=160 height=50 class=logo xmlns=http://www.w3.org/2000/svg viewBox="0 0 701 217"> -->
+                    <svg width=160 height=50 class="logo" xmlns=http://www.w3.org/2000/svg viewBox="0 0 701 217">
+                        <!-- <path d="M122.73 185.24l12.57&#45;15.05c8.77 7.2 18.58 11.4 29.58 11.4 8.37 0 12.7&#45;3.4 12.7&#45;8.25 0&#45;5.36&#45;4.2&#45;6.54&#45;17.28&#45;9.68&#45;19.23&#45;4.32&#45;33.5&#45;9.56&#45;33.5&#45;27.62 0&#45;17.27 13.87&#45;28.8 34.42&#45;28.8 15 0 26.83 4.32 36.38 12.3l&#45;11.38 16c&#45;8.2&#45;6.3&#45;17.28&#45;9.54&#45;25.65&#45;9.54&#45;7.2 0&#45;11.26 3.4&#45;11.26 7.85 0 5.5 4.32 7.33 17.67 10.2 20.15 4.32 33.1 10.07 33.1 27 0 18.06&#45;13.74 29.3&#45;36 29.3&#45;15.96&#45;.08&#45;30.48&#45;5.3&#45;41.35&#45;15.13zm190.7&#45;6.02l8 6.94&#45;10.87 12.56&#45;8.77&#45;7.6a49.08 49.08 0 0 1&#45;28.53 9.16c&#45;26.18 0&#45;48.25&#45;21.3&#45;48.25&#45;46.6s22.12&#45;46.46 48.3&#45;46.46 48.43 21.2 48.43 46.46a44 44 0 0 1&#45;8.3 25.52zm&#45;28.14&#45;2.48l&#45;9.28&#45;8.12 10.86&#45;12.56 9.56 8.24a26 26 0 0 0 2.22&#45;10.6c0&#45;14.13&#45;11.64&#45;26.17&#45;25.4&#45;26.17s&#45;25.4 12&#45;25.4 26.17 11.66 26.3 25.4 26.3a23.74 23.74 0 0 0 12.04&#45;3.26zm51.57&#45;17.4V108.8h22.38v49.47c0 12.7 8.12 21.73 19.37 21.73s19.5&#45;9 19.5&#45;21.73V108.8h22.25v50.52c0 24.08&#45;17.14 41&#45;41.75 41s&#45;41.75&#45;16.92&#45;41.75&#45;41zm158.23 26.3h&#45;35.6l&#45;5.24 13.1H429.1l35.6&#45;89.9h25.13l35.6 89.9H500.3zm&#45;6.93&#45;17.53l&#45;10.87&#45;27.62&#45;10.86 27.62zm102.35 30.62l&#45;19.77&#45;28.14h&#45;11v28.14h&#45;22.37v&#45;89.9h41.75c19.76 0 34.16 12.7 34.16 30.9 0 13.1&#45;7.46 23.42&#45;19.1 28.14l21.73 30.88zm&#45;30.76&#45;48.55H577c7.72 0 13.2&#45;4.2 13.2&#45;10.47s&#45;5.5&#45;10.47&#45;13.2&#45;10.47h&#45;17.26zm92.66&#45;21.34v14h44v20h&#45;44v15.87h48.43v20H630v&#45;89.9h70.8v20z" fill=#ffffff /> -->
+                        <!-- <path d="M3.33 3.3h210.03v210.03H3.33z" fill=none stroke=#ffffff stroke&#45;miterlimit=10 stroke&#45;width=6 /> -->
+                        <img src="/static/images/logo.svg">
                     </svg>
                 </a>
 
@@ -50,14 +50,14 @@
         <main>
             <section class="py-13 py-lg-15 vh-75" id=content>
                 <!-- <div class="bg&#45;primary bg&#45;image bg&#45;cover overlay overlay&#45;primary overlay&#45;70" data&#45;jarallax data&#45;speed=.8 style="background&#45;image: url(static/images/photos/photo&#45;59.jpg);"> -->
-                <div class="bg-primary bg-image bg-cover overlay overlay-primary overlay-70" data-jarallax data-speed=.8 style="background-image: url(static/3.jpg);">
+                <div class="bg-primary bg-image bg-cover overlay overlay-primary overlay-70" data-jarallax data-speed=.8 style="background-image: url(static/images/main.jpg);">
                     <div class="container h-100">
                         <div class="row align-items-center h-100 text-white" data-aos=fade-down>
                             <div class=col>
                                 <p class="small mb-n2 opacity-70">October 2-4, 2020<br>Goethe Institut, Vladivostok - Berlin</p>
                                 <h1 class="display-2 mb-5">TheName</h1>
-                                <a href=#pricing data-scroll class="btn btn-secondary text-uppercase d-inline-flex align-items-center">
-                                    Reserve your spot
+                                <a href=/play data-scroll class="btn btn-secondary text-uppercase d-inline-flex align-items-center">
+                                    Watch now
                                     <!-- <svg width=20 height=20 class=ml&#45;2 xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24"> -->
                                     <!--     <title>ticket&#45;two</title> -->
                                     <!--     <path d=M14.5,7V17.75a.25.25,0,0,0,.25.25H21.5a1,1,0,0,0,1&#45;1V1a1,1,0,0,0&#45;1&#45;1h&#45;10a1,1,0,0,0&#45;1,1V4.75a.25.25,0,0,0,.25.25H12.5A2,2,0,0,1,14.5,7Zm3.75,7a.75.75,0,1,1,.75&#45;.75A.75.75,0,0,1,18.25,14Zm2.5&#45;1.5a.75.75,0,1,1&#45;.75.75A.75.75,0,0,1,20.75,12.5Zm&#45;3.3&#45;7.9a.75.75,0,0,1&#45;.9&#45;1.2l1.2&#45;.9a1.25,1.25,0,0,1,2,1,.75.75,0,0,1&#45;.012.134l&#45;.821,4.517a.087.087,0,0,0,.018.069A.085.085,0,0,0,19,8.25a.75.75,0,0,1,0,1.5H17a.75.75,0,0,1,0&#45;1.5h.165a.25.25,0,0,0,.246&#45;.205l.72&#45;3.955Zm&#45;1.7,7.9a.75.75,0,1,1&#45;.75.75A.75.75,0,0,1,15.75,12.5Z /> -->
