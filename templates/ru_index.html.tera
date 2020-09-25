@@ -1,4 +1,4 @@
-{% extends "layout" %}
+{% extends "ru_layout" %}
 
 {% block content %}
 <main>
@@ -7,10 +7,10 @@
             <div class="container h-100">
                 <div class="row align-items-center h-100 text-white" data-aos=fade-down>
                     <div class=col>
-                        <p class="small mb-n2 opacity-70">2-4.10.2020 | Music, Live Media<br>Berlin, Germany | Moscow, Russia | Vladivostok, Russia<br>Online streaming and rebroadcast</p>
+                        <p class="small mb-n2 opacity-70">2-4.10.2020 |  Музыка, аудиовизуальные выступления, онлайн-стриминг<br>Берлин, Германия | Москва, Россия | Владивосток, Россия</p>
                         <h1 class="display-2 mb-5">RE+EMBODIMENT</h1>
                         <a href=/live data-scroll class="btn btn-secondary text-uppercase d-inline-flex align-items-center">
-                            Watch now
+                            Смотреть
                         </a>
                     </div>
                 </div>
@@ -33,14 +33,42 @@
                 -->
             <div class="row justify-content-center">
                 <div class=col-lg-10>
-                    <p><b>RE+EMBODIMENT</b> produces new hybrid environments for interaction, bringing together a unique selection of multi-disciplinary artists in a program that is uniquely physical even in restricted times.
-                    Connecting the performance scenes in Berlin with emerging Vladivostok artists and audiences, and online across German, Russia, and internationally, the event is an immersive, intensive platform across two days.
-                    Beginning with <b>artist talks and workshops</b> engaging new audiences, the event’s highlight is a marathon session centered in Vladivostok, Moscow, and Berlin, as live streams from physical performance spaces offer live audiovisual concerts, movement performance, and club DJs. After sundown on Saturday, an innovative program of live-streamed projection mapping will appear on the Russky Bridge Vladivostok.</p>
-                    <p>For one day and night, the Berlin and Vladivostok scenes will be able to coexist in a shared virtual space.</p>
-                    <p>Live performances and premieres: Zoë Mc Pherson [FR/DE] Valentin Tszin [RU/DE] feat. Daniel Williams [UK/DE] Ilya Boordin [RU] Peter Kirn [US/DE] feat. Petr Termen [RU] and Todd Reynolds [US] Michael Tan [AU/DE] Vadim Epstein [RU] Pokras Lampas [RU] nomoreless (RU/DE) Butohspielplatz [DE]</p>
-                    <p>DJ sets by: Dasha Rush [RU/DE] Magna Pia [DE] Hubert Spangler [DE] x_tin [AT/DE] Glow [RU] Workpop [RU] Dove Enderson [RU]</p>
-                    <p>Artist talks and workshops by: Peter Kirn [US/DE] cables.gl [DE] Vadim Epstein [RU] Valentin Tszin [RU/DE] Ilya Boordin [RU]</p>
-                    <p class=mb-7>The project is produced collaboratively between Vladivostok and Berlin, by curators Peter Kirn of Create Digital Media GmbH, Berlin (and media partner CDM.link), Valentin Tszin, Berlin, and Ilya Boordin, Valdivostok. Presented with the support of Goethe-Institut Novosibirsk in the framework of the German Year in Russia.</p>
+                    <p><b>RE+EMBODIMENT</b> создает новые гибридные пространства для взаимодействия, объединяя уникальных артистов из разных сфер искусства в одной программе, поистине осязаемой физически, даже во времена социального дистанцирования.
+                    <br>Это событие является уникальной платформой для интенсивного погружения в онлайн перформативную сцену Берлин-Владивосток с её артистами и аудиториями на протяжении двух дней. Мероприятие начинается с выступлений артистов и мастер-классов с привлечением новой аудитории, а кульминацией мероприятия является марафонская сессия, проходящая во Владивостоке, Москве и Берлине. Прямые трансляции с площадок для физических выступлений предлагают живые аудиовизуальные концерты и выступления клубных ди-джеев.
+                    <br>После захода солнца в субботу на мосту через залив Золотой Рог во Владивостоке появится инновационная программа прямой трансляции проекционного мэппинга.
+                    <br>В течение одного дня и ночи сцены Берлина и Владивостока смогут сосуществовать в общем виртуальном пространстве.</p>
+
+                    <p>Лайв перформансы и премьеры:</p>
+
+                    <p><b>Zoë Mc Pherson</b> [FR/DE]
+                    <br><b>Valentin Tszin</b> [RU/DE] feat. <b>Daniel Williams</b> [UK/DE]
+                    <br><b>Ilya Boordin</b> [RU]
+                    <br><b>Peter Kirn</b> [US/DE] feat. <b>Petr Termen</b> [RU] and <b>Todd Reynolds</b> [US]
+                    <br><b>Michael Tan</b> [AU/DE]
+                    <br><b>Vadim Epstein</b> [RU]
+                    <br><b>Pokras Lampas</b> [RU]
+                    <br><b>nomoreless</b> [RU/DE]
+                    <br><b>Butohspielplatz</b> [DE]</p>
+
+                    <p>Ди-джей сеты:</p>
+
+                    <p><b>Dasha Rush</b> [RU/DE]
+                    <br><b>Magna Pia</b> [DE]
+                    <br><b>Hubert Spangler</b> [DE]
+                    <br><b>X tin</b> [AT/DE]
+                    <br><b>Glow</b> [RU]
+                    <br><b>Workpop</b> [RU]
+                    <br><b>Dove Enderson</b> [RU]</p>
+
+                    <p>Воркшопы и диалоги с артистами:</p>
+
+                    <p><b>Peter Kirn</b> [US/DE]
+                    <br><b>cables.gl</b> [DE]
+                    <br><b>Vadim Epstein</b> [RU]
+                    <br><b>Valentin Tszin</b> [RU/DE]
+                    <br><b>Ilya Boordin</b> [RU]</p>
+
+                    <p class=mb-7>Проект создается кураторами Питером Кирном из Create Digital Media GmbH, Берлин (и информационным партнером CDM.link), Валентином Цзином, Берлин, и Ильей Бурдиным, Владивосток. Организовано при поддержке Гёте-Института в Новосибирске в рамках открытия Года Германии в России 2020/21.</p>
                 </div>
             </div>
         </div>

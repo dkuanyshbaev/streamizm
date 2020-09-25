@@ -22,7 +22,8 @@ fn rocket() -> rocket::Rocket {
         .manage(secret)
         .attach(Template::fairing())
         .mount("/static", StaticFiles::from("static/"))
-        .mount("/", routes![index, play, events])
+        .mount("/", routes![index, live, events])
+        .mount("/ru", routes![ru_index])
         .register(catchers![not_found])
 }
 
@@ -31,14 +32,19 @@ pub fn index() -> Template {
     Template::render("index", NoContext {})
 }
 
-#[get("/play")]
-pub fn play() -> Template {
-    Template::render("play", NoContext {})
+#[get("/live")]
+pub fn live() -> Template {
+    Template::render("live", NoContext {})
 }
 
 #[get("/events")]
 pub fn events() -> Template {
     Template::render("events", NoContext {})
+}
+
+#[get("/")]
+pub fn ru_index() -> Template {
+    Template::render("ru_index", NoContext {})
 }
 
 #[catch(404)]
