@@ -8,11 +8,11 @@
 
         <title>101Seasons.org</title>
 
-        <link rel=apple-touch-icon sizes=180x180 href=static/images/icons/favicons/apple-touch-icon.png>
-        <link rel=icon type=image/png sizes=32x32 href=static/images/icons/favicons/favicon-32x32.png>
-        <link rel=icon type=image/png sizes=16x16 href=static/images/icons/favicons/favicon-16x16.png>
-        <link rel=manifest href=static/images/icons/favicons/site.webmanifest>
-        <link rel=mask-icon href=static/images/icons/favicons/safari-pinned-tab.svg color=#232323>
+        <link rel=apple-touch-icon sizes=180x180 href=static/images/favicons/apple-touch-icon.png>
+        <link rel=icon type=image/png sizes=32x32 href=static/images/favicons/favicon-32x32.png>
+        <link rel=icon type=image/png sizes=16x16 href=static/images/favicons/favicon-16x16.png>
+        <link rel=manifest href=static/images/favicons/site.webmanifest>
+        <link rel=mask-icon href=static/images/favicons/safari-pinned-tab.svg color=#232323>
         <meta name=msapplication-TileColor content=#ffffff>
         <meta name=theme-color content=#ffffff>
         <link href=static/css/theme.min.css rel=stylesheet>
@@ -23,10 +23,8 @@
             <div class="position-relative container-fluid">
                 <a href=#content class="skip-to-main sr-only-focusable" role=button>Skip to main content</a>
 
-                <a class="navbar-brand mr-auto logo_margin" href="/home" aria-label="Click to go back to Homepage">
+                <a class="navbar-brand mr-auto logo_margin" href="/" aria-label="Click to go back to Homepage">
                     <svg width=160 height=50 class=logo xmlns=http://www.w3.org/2000/svg viewBox="0 0 701 217">
-                        <!-- <path d="M122.73 185.24l12.57&#45;15.05c8.77 7.2 18.58 11.4 29.58 11.4 8.37 0 12.7&#45;3.4 12.7&#45;8.25 0&#45;5.36&#45;4.2&#45;6.54&#45;17.28&#45;9.68&#45;19.23&#45;4.32&#45;33.5&#45;9.56&#45;33.5&#45;27.62 0&#45;17.27 13.87&#45;28.8 34.42&#45;28.8 15 0 26.83 4.32 36.38 12.3l&#45;11.38 16c&#45;8.2&#45;6.3&#45;17.28&#45;9.54&#45;25.65&#45;9.54&#45;7.2 0&#45;11.26 3.4&#45;11.26 7.85 0 5.5 4.32 7.33 17.67 10.2 20.15 4.32 33.1 10.07 33.1 27 0 18.06&#45;13.74 29.3&#45;36 29.3&#45;15.96&#45;.08&#45;30.48&#45;5.3&#45;41.35&#45;15.13zm190.7&#45;6.02l8 6.94&#45;10.87 12.56&#45;8.77&#45;7.6a49.08 49.08 0 0 1&#45;28.53 9.16c&#45;26.18 0&#45;48.25&#45;21.3&#45;48.25&#45;46.6s22.12&#45;46.46 48.3&#45;46.46 48.43 21.2 48.43 46.46a44 44 0 0 1&#45;8.3 25.52zm&#45;28.14&#45;2.48l&#45;9.28&#45;8.12 10.86&#45;12.56 9.56 8.24a26 26 0 0 0 2.22&#45;10.6c0&#45;14.13&#45;11.64&#45;26.17&#45;25.4&#45;26.17s&#45;25.4 12&#45;25.4 26.17 11.66 26.3 25.4 26.3a23.74 23.74 0 0 0 12.04&#45;3.26zm51.57&#45;17.4V108.8h22.38v49.47c0 12.7 8.12 21.73 19.37 21.73s19.5&#45;9 19.5&#45;21.73V108.8h22.25v50.52c0 24.08&#45;17.14 41&#45;41.75 41s&#45;41.75&#45;16.92&#45;41.75&#45;41zm158.23 26.3h&#45;35.6l&#45;5.24 13.1H429.1l35.6&#45;89.9h25.13l35.6 89.9H500.3zm&#45;6.93&#45;17.53l&#45;10.87&#45;27.62&#45;10.86 27.62zm102.35 30.62l&#45;19.77&#45;28.14h&#45;11v28.14h&#45;22.37v&#45;89.9h41.75c19.76 0 34.16 12.7 34.16 30.9 0 13.1&#45;7.46 23.42&#45;19.1 28.14l21.73 30.88zm&#45;30.76&#45;48.55H577c7.72 0 13.2&#45;4.2 13.2&#45;10.47s&#45;5.5&#45;10.47&#45;13.2&#45;10.47h&#45;17.26zm92.66&#45;21.34v14h44v20h&#45;44v15.87h48.43v20H630v&#45;89.9h70.8v20z" fill=#ffffff /> -->
-                        <!-- <path d="M3.33 3.3h210.03v210.03H3.33z" fill=none stroke=#ffffff stroke&#45;miterlimit=10 stroke&#45;width=6 /> -->
                         <img src="/static/images/logo.svg">
                     </svg>
                 </a>
@@ -34,12 +32,11 @@
                 <button class="navbar-toggler ml-auto" type=button data-toggle=collapse data-target=#navbarCollapse aria-expanded=false aria-label="Toggle navigation"><span class=navbar-toggler-icon></span></button>
                 <div class="collapse navbar-collapse" id=navbarCollapse>
                     <ul class="navbar-nav ml-auto">
-                        <li class=nav-item><a class=nav-link href="/home">Home</a></li>
+                        <li class=nav-item><a class=nav-link href="/">Home</a></li>
                         <li class=nav-item><a class=nav-link href="/play">Play</a></li>
                         <li class=nav-item><a class=nav-link href="/events">Events</a></li>
-                        <li class=nav-item><a class=nav-link href="/collabs">Collabs</a></li>
                     </ul>
-                    <!-- <a class="btn btn&#45;sm btn&#45;secondary text&#45;uppercase mt&#45;3 mt&#45;lg&#45;0 ml&#45;lg&#45;4 d&#45;block d&#45;lg&#45;inline&#45;block" href=# target=_blank rel=noopener>Watch now!</a> -->
+                    <a class="btn btn-sm btn-secondary text-uppercase mt-3 mt-lg-0 ml-lg-4 d-block d-lg-inline-block" href=/ru >RU</a>
                 </div>
             </div>
         </header>
