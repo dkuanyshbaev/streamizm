@@ -1,3 +1,7 @@
 .logo_margin {
     margin-left: -160px;
 }
+
+.no_top {
+    margin-top: -50px;
+}
