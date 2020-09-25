@@ -68,22 +68,7 @@
                     <br><b>Valentin Tszin</b> [RU/DE]
                     <br><b>Ilya Boordin</b> [RU]</p>
 
-                    <p class=mb-7>Проект создается кураторами Питером Кирном из Create Digital Media GmbH, Берлин (и информационным партнером CDM.link), Валентином Цзином, Берлин, и Ильей Бурдиным, Владивосток. Организовано при поддержке Гёте-Института в Новосибирске в рамках открытия Года Германии в России 2020/21.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-6 mb-6 py-lg-7 mb-lg-7">
-        <div class=container>
-            <div class="row justify-content-center">
-                <div class=col-lg-10>
-                    <p>RE+EMBODIMENT produces new hybrid environments for interaction, bringing together a unique selection of multi-disciplinary artists in a program that is uniquely physical even in restricted times. Connecting the performance scenes in Berlin with emerging Vladivostok artists and audiences, and online across German, Russia, and internationally, the event is an immersive, intensive platform across two days. Beginning with artist talks and workshops engaging new audiences, the event’s highlight is a marathon session centered in Vladivostok, Moscow, and Berlin, as live streams from physical performance spaces offer live audiovisual concerts, movement performance, and club DJs. After sundown on Saturday, an innovative program of live-streamed projection mapping will appear on the Russky Bridge Vladivostok.</p>
-                    <p>For one day and night, the Berlin and Vladivostok scenes will be able to coexist in a shared virtual space.</p>
-                    <p>Live performances and premieres: Zoë Mc Pherson [FR/DE] Valentin Tszin [RU/DE] feat. Daniel Williams [UK/DE] Ilya Boordin [RU] Peter Kirn [US/DE] feat. Petr Termen [RU] and Todd Reynolds [US] Michael Tan [AU/DE] Vadim Epstein [RU] Pokras Lampas [RU] nomoreless (RU/DE) Butohspielplatz [DE]</p>
-                    <p>DJ sets by: Dasha Rush [RU/DE] Magna Pia [DE] Hubert Spangler [DE] x_tin [AT/DE] Glow [RU] Workpop [RU] Dove Enderson [RU]</p>
-                    <p>Artist talks and workshops by: Peter Kirn [US/DE] cables.gl [DE] Vadim Epstein [RU] Valentin Tszin [RU/DE] Ilya Boordin [RU]</p>
-                    <p class=mb-7>The project is produced collaboratively between Vladivostok and Berlin, by curators Peter Kirn of Create Digital Media GmbH, Berlin (and media partner CDM.link), Valentin Tszin, Berlin, and Ilya Boordin, Valdivostok. Presented with the support of Goethe-Institut Novosibirsk in the framework of the German Year in Russia.</p>
+                    <p>Проект создается кураторами Питером Кирном из Create Digital Media GmbH, Берлин (и информационным партнером CDM.link), Валентином Цзином, Берлин, и Ильей Бурдиным, Владивосток. Организовано при поддержке Гёте-Института в Новосибирске в рамках открытия Года Германии в России 2020/21.</p>
                 </div>
             </div>
         </div>
@@ -95,127 +80,176 @@
                 <div class=col>
                     <div class="row justify-content-between align-items-baseline">
                         <div class=col>
-                            <h2>Agenda</h2>
+                            <h2>Программа мероприятия</h2>
                         </div>
                         <div class="col-auto small">
                             <ul class="nav nav-tabs border-0" id=myTab role=tablist>
-                                <li class=nav-item><a class="nav-link font-weight-bold px-2 border-0 active" id=day1-tab data-toggle=tab href=#day1 role=tab aria-controls=day1 aria-selected=true>Day 1</a></li>
-                                <li class=nav-item><a class="nav-link font-weight-bold px-2 border-0" id=day2-tab data-toggle=tab href=#day2 role=tab aria-controls=day2 aria-selected=false>Day 2</a></li>
-                                <li class=nav-item><a class="nav-link font-weight-bold px-2 border-0" id=day3-tab data-toggle=tab href=#day3 role=tab aria-controls=day3 aria-selected=false>Day 3</a></li>
+                                <li class=nav-item><a class="nav-link font-weight-bold px-2 border-0 active" id=day1-tab data-toggle=tab href=#day1 role=tab aria-controls=day1 aria-selected=true>2 Октября</a></li>
+                                <li class=nav-item><a class="nav-link font-weight-bold px-2 border-0" id=day2-tab data-toggle=tab href=#day2 role=tab aria-controls=day2 aria-selected=false>3 Октября</a></li>
+                                <li class=nav-item><a class="nav-link font-weight-bold px-2 border-0" id=day3-tab data-toggle=tab href=#day3 role=tab aria-controls=day3 aria-selected=false>4 Октября</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class=tab-content id=myTabContent>
                         <div class="tab-pane fade show active" id=day1 role=tabpanel aria-labelledby=day1-tab>
+                        <p>LEARNING LAB</p>
+                        <p>Первый день углубляет связь между российскими и немецкими артистами и технологами, продвигая как виртуальные, так и физически воплощенные перформансы с цифровыми и движущимися блоками. Это бесплатное открытое учебное пространство – возможность для аудитории в России и во всем онлайн-пространстве открыть для себя новые навыки и пообщаться с ведущими специалистами- практиками.</p>
+                        <p>Программа включает в себя берлинский стартап Cable.gl, мощную трехмерную среду, которая запускается внутри браузеров (с бесплатной бета-версией), обсуждение Искусственного Интеллекта, живые и генеративные визуальные эффекты, синтез музыки с бесплатным программным обеспечением с открытым исходным кодом и буто как связующее звено между берлинским техно и исполнителями в России и Восточной Азии.</p>
+                        <p>Дуступ к программе открыт для онлайн-аудитории с возможностью обсуждать и задавать вопросы.</p>
+                        <p><b>Владивостокское время (VLAT) UTC+10:00</b></p>
                             <div class=table-responsive>
                                 <table class="table table-striped font-size-5 mb-0">
                                     <thead>
                                         <tr class="font-size-6 text-secondary">
-                                            <th scope=col>Program</th>
-                                            <th scope=col>Time</th>
-                                            <th scope=col>Presenter</th>
+                                            <th scope=col>Время</th>
+                                            <th scope=col>Название</th>
+                                            <th scope=col>Артист</th>
+                                            <th scope=col>Язык</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Registration</td>
-                                            <td>7:00am - 8:20am</td>
-                                            <td>-</td>
+                                            <td>19:00</td>
+                                            <td>Диалог с артистами (Открытие)</td>
+                                            <td>Valentin Tszin / Ilya Boordin</td>
+                                            <td>Английский/Русский</td>
                                         </tr>
                                         <tr>
-                                            <td>Welcoming remarks</td>
-                                            <td>8:30am - 9:00am</td>
-                                            <td>Austin Franklin</td>
+                                            <td>20:00</td>
+                                            <td>Воркшоп: Визуальная генерация</td>
+                                            <td>cables.gl</td>
+                                            <td>Английский/Русский</td>
                                         </tr>
                                         <tr>
-                                            <td>Keynote: CEOs talk Square</td>
-                                            <td>9:15am - 10:20am</td>
-                                            <td>Alex Lawson</td>
+                                            <td>21:00</td>
+                                            <td>Воркшоп: Откройте для себя модульный синтез с помощью бесплатного программного обеспечения в VCV Rack</td>
+                                            <td>Peter Kirn</td>
+                                            <td>Английский/Русский</td>
                                         </tr>
                                         <tr>
-                                            <td>How the digital era will impact the economy</td>
-                                            <td>10:30am - 12:30am</td>
-                                            <td>Lance Hughes</td>
+                                            <td>22:00</td>
+                                            <td>Мастер-класс: Искусственный интеллект как художественная среда</td>
+                                            <td>Vadim Epstein</td>
+                                            <td>Русский</td>
                                         </tr>
                                         <tr>
-                                            <td>Launch break</td>
-                                            <td>12:40am - 1:30pm</td>
-                                            <td>-</td>
+                                            <td>20:00</td>
+                                            <td>Дискуссия: Буто как развивающаяся среда и ее радикальные направления в Германии</td>
+                                            <td>Valentin Tszin, Daniel Williams</td>
+                                            <td>Английский/Русский</td>
                                         </tr>
                                         <tr>
-                                            <td>The future of banking</td>
-                                            <td>2:00pm - 2:45pm</td>
-                                            <td>Jonathan Arnold</td>
-                                        </tr>
-                                        <tr>
-                                            <td>How is Google harnessing the word</td>
-                                            <td>2:55pm - 3:25pm</td>
-                                            <td>Clifton Adams</td>
-                                        </tr>
-                                        <tr>
-                                            <td>From disruption to transformation</td>
-                                            <td>3:30pm - 4:15pm</td>
-                                            <td>Derek Williamson</td>
+                                            <td>21:00</td>
+                                            <td>Онлайн-класс буто</td>
+                                            <td>Valentin Tszin</td>
+                                            <td>Английский/Русский</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
+
                         <div class="tab-pane fade" id=day2 role=tabpanel aria-labelledby=day2-tab>
+                        <p>МУЛЬТИ-ГОРОДСКОЙ АУДИОВИЗУАЛЬНЫЙ СПЕКТАКЛЬ</p>
+                        <p>Второй день переносит новейшие аудиовизуальные шоу и клубные программы в виртуальное пространство, позволяя этим сценам взаимодействовать онлайн, а не молчать. Наша главная цель – углубление связей между артистами и налаживание контактов между культурами и творческими мирами Германии и России, представление парных проектов художников, коллаборации и совместные выступления в разных географических регионах. Вместо того, чтобы быть суррогатом личных встреч, онлайн-пространство настроено так, чтобы создавать связи, которые раньше были невозможны.</p>
+                        <p>Большинство лайвов будут транслироваться в гибридном формате: исполнители будут видеть друг друга и взаимодействовать в интернет-проекции с площадок через весь континент, и все события будут передаваться для зрителя в интернет, в режиме реального времени. Присутствие посетителей на площадках не предполагается, однако все события можно будет посмотреть в высоком цифровом качестве на сайте организатора (с мультиракурсов) и в соцсетях (единопланово).</p>
+                        <p><b>Описание клубной музыкальной программы:</b></p>
+                        <p>Икона техно Берлина <b>Dasha Rush</b> присоединится из Mutabor, Москва.
+                        <br><b>Hubert Spangler</b> (TRADE, Overthinker Mob) поделится авантюрной клубной музыкой и сногсшибательной визуальной составяющей от ведущего немецкого клуба-законодателя вкусов.
+                        <br><b>Magna Pia</b> (Hüseyin Evirgen, half of Cassegrain / Ostgut Ton, Killekill) открывает новые направления в глубоком техно в обрамлении <b>X tin</b> (UY Studio), чья мрачная фетишистская эстетика охватывает мир берлинской моды.
+                        <br><b>Glow</b>, <b>Workpop</b>, <b>Dove Enderson</b> продемонстрируют динамично развивающуюся музыкальную сцену Дальнего Востока.</p>
+                        <p>Живые выступления используют онлайн-условия для создания новых потрясающих идей для выступления, в том числе:
+                        <br><b>Valentin Tszin</b> и <b>Ilya Boordin</b> раскроют возможности стриминга в качестве средства передачи информации, объединяя танцоров со всей России с берлинскими исполнителями в онлайн-представлении для разных стран.
+                        <br><b>Zoë Mc Pherson</b>, композитор / звукорежиссер и основатель нового AV-лейбла SFX, представит свое зажигательное и изобретательное исполнение.
+                        <br><b>Peter Kirn</b> объединит пионера сцены в центре Нью-Йорка <b>Todd Reynolds</b> (Ethel, Bang on a Can, Steve Reich Ensemble) с <b>Peter Termen</b> из России, играющим на изобретении своего прадеда, в композиции для потокового международного терменвокса и скрипки, созданной вживую в Берлине – и отслеживающей путешествие Леона Термена из Манхэттена в Москву.
+                        <br><b>Vadim Epstein</b> поделится своими опытом в работе с передовыми аудиовизуальными программами, созданными на основе искусственного интеллекта. Часть эффектов  и приёмов из лекции будет задействована в проекции, таким образом аудитория сможет в полной мере оценить результат работы.
+                        <br><b>Pokras Lampas</b> – один из самых ярких представителей современной каллиграфии, основатель нового направления в искусстве «каллиграфутуризм». Создает масштабные каллиграфические композиции в городской среде, постоянно экспериментируя с формами и возможностями шрифтов. Во Владивостоке будет представлена его работа в аудиовизуальном формате.</p>
+                        <p><b>Владивостокское время (VLAT) UTC+10:00</b></p>
                             <div class=table-responsive>
                                 <table class="table table-striped font-size-5 mb-0">
                                     <thead>
                                         <tr class="font-size-6 text-secondary">
-                                            <th scope=col>Program</th>
-                                            <th scope=col>Time</th>
-                                            <th scope=col>Presenter</th>
+                                            <th scope=col>Время</th>
+                                            <th scope=col>Артист</th>
+                                            <th scope=col>Площадка</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Lorem ipsum dolor sit amet adipiscing elit</td>
-                                            <td>7:00am - 8:20am</td>
-                                            <td>Clifton Adams</td>
+                                            <td>20:00</td>
+                                            <td>Запуск аудиовизуальной программы</td>
+                                            <td>Золотой Мост, Владивосток</td>
                                         </tr>
                                         <tr>
-                                            <td>Morbi maximus erat vulputate fermentum</td>
-                                            <td>8:30am - 9:00am</td>
-                                            <td>Austin Franklin</td>
+                                            <td>20:20</td>
+                                            <td>Vadim Epstein (AV live)</td>
+                                            <td>Золотой Мост, Владивосток</td>
                                         </tr>
                                         <tr>
-                                            <td>Pellentesque fermentum arcu rutrum porttitor</td>
-                                            <td>9:15am - 10:20am</td>
-                                            <td>Alex Lawson</td>
+                                            <td>20:45</td>
+                                            <td>Pokras Lampas (AV live)</td>
+                                            <td>Золотой Мост, Владивосток</td>
                                         </tr>
                                         <tr>
-                                            <td>In egestas quam vel justo pharetra</td>
-                                            <td>10:30am - 12:30am</td>
-                                            <td>Lance Hughes</td>
+                                            <td>21:00</td>
+                                            <td>Valentin Tszin / Ilya Boordin представляют перформанс Unerreichbar (AV live)</td>
+                                            <td>Золотой Мост, Владивосток</td>
                                         </tr>
                                         <tr>
-                                            <td>Launch break</td>
-                                            <td>12:40am - 1:30pm</td>
-                                            <td>-</td>
+                                            <td>22:00</td>
+                                            <td>Glow (DJ)</td>
+                                            <td>Онлайн Студия</td>
                                         </tr>
                                         <tr>
-                                            <td>Suspendisse in dolor malesuada pulvinar urna</td>
-                                            <td>2:00pm - 2:45pm</td>
-                                            <td>Jonathan Arnold</td>
+                                            <td>23:00</td>
+                                            <td>Workpop (DJ)</td>
+                                            <td>Онлайн Студия</td>
                                         </tr>
                                         <tr>
-                                            <td>Ut pretium lectus nunc auctor pharetra</td>
-                                            <td>2:55pm - 3:25pm</td>
-                                            <td>Clifton Adams</td>
+                                            <td>00:00</td>
+                                            <td>Dove Enderson (DJ)</td>
+                                            <td>Онлайн Студия</td>
                                         </tr>
                                         <tr>
-                                            <td>In mollis lorem gravida mattis porta</td>
-                                            <td>3:30pm - 4:15pm</td>
-                                            <td>Derek Williamson</td>
+                                            <td>01:00</td>
+                                            <td>Peter Kirn feat. Petr Termen, Todd Reynolds, VAVA (AV live)</td>
+                                            <td>Studio dB, Берлин</td>
+                                        </tr>
+                                        <tr>
+                                            <td>02:00</td>
+                                            <td>Michael Tan (AV live)</td>
+                                            <td>Studio dB, Берлин</td>
+                                        </tr>
+                                        <tr>
+                                            <td>02:30</td>
+                                            <td>Zoë Mc Pherson (AV live)</td>
+                                            <td>Studio dB, Берлин</td>
+                                        </tr>
+                                        <tr>
+                                            <td>03:30</td>
+                                            <td>Hubert Spangler (DJ)</td>
+                                            <td>Studio dB, Берлин</td>
+                                        </tr>
+                                        <tr>
+                                            <td>04:30</td>
+                                            <td>x_tin (DJ)</td>
+                                            <td>Studio dB, Берлин</td>
+                                        </tr>
+                                        <tr>
+                                            <td>05:30</td>
+                                            <td>Magna Pia (DJ)</td>
+                                            <td>Studio dB, Берлин</td>
+                                        </tr>
+                                        <tr>
+                                            <td>06:30</td>
+                                            <td>Dasha Rush (DJ)</td>
+                                            <td>Mutabor, Москва</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
+
                         <div class="tab-pane fade" id=day3 role=tabpanel aria-labelledby=day3-tab>
                             <div class=table-responsive>
                                 <table class="table table-striped font-size-5 mb-0">
@@ -272,20 +306,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="py-6 py-lg-7" id=content>
-        <div class=container>
-            <div class=row>
-                <div class="col-md-7 col-lg-8" data-aos=fade-right>
-                    <p class="lead mb-4 mb-md-0"><strong>Integer sagittis hendrerit massa vitae.</strong> Suspendisse potenti, morbi auctor odio non lobortis sollicitudinm auris. Phasellus blandit nunc accumsan diam porttitor, eget sagittis dapibus.<br>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus eu erat neque.</p>
-                </div>
-                <div class="col-md-5 col-lg-4" data-aos=fade-left>
-                    <p class="lead mb-0">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himene. Phasellus eu erat neque.</p>
                 </div>
             </div>
         </div>

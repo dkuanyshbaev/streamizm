@@ -22,7 +22,7 @@ fn rocket() -> rocket::Rocket {
         .manage(secret)
         .attach(Template::fairing())
         .mount("/static", StaticFiles::from("static/"))
-        .mount("/", routes![index, live, events])
+        .mount("/", routes![index, live])
         .mount("/ru", routes![ru_index])
         .register(catchers![not_found])
 }
@@ -35,11 +35,6 @@ pub fn index() -> Template {
 #[get("/live")]
 pub fn live() -> Template {
     Template::render("live", NoContext {})
-}
-
-#[get("/events")]
-pub fn events() -> Template {
-    Template::render("events", NoContext {})
 }
 
 #[get("/")]
