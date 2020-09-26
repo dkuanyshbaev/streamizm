@@ -1,4 +1,4 @@
-{% extends "ru_layout" %}
+{% extends "layout" %}
 
 {% block content %}
       <main>
@@ -6,7 +6,7 @@
             <div class="container position-relative">
                <div class=row>
                   <div class=col>
-                     <h1 class=display-4>ВАЛЕНТИН ЦЗИН</h1>
+                     <h1 class=display-4>VALENTIN TSZIN</h1>
                      <div class="img-shifted shift-left py-12 py-lg-15" data-aos=fade-right>
                         <div class="bg-image bg-cover" style="background-image: url(/static/images/photos/photo4.jpg);" data-jarallax data-speed=.8></div>
                      </div>
@@ -19,7 +19,11 @@
             <div class=container>
                <div class=row>
                   <div class="col-md-7 col-lg-8" data-aos=fade-right>
-                     <p class="lead mb-4 mb-md-0"><b>Валентин Цзин</b><br> Российский режиссер, перформер и исследователь танца, живущий в Берлине. Его метод (4/4 4/3 4/0) опирается на техники и основные принципы драматического театра, тхэквондо, буто и горлового пения. Объемы работ Цзина сильно варьируется в масштабе: он работает в контрастном диапазоне форматов, от аскетичных сольных до сложных групповых. Его проекты были представлены разным аудиториям на международном уровне, а в некоторых из них было задействовано до ста человек. По словам Цзина, междисциплинарный диалог в искусстве - это путь вперед. Помимо самого танца, он создал работы в самых различных контекстах: параметрическая архитектура (перформанс для открытия здания, разработанное Захой Хадид), кино (многочисленные роли в течение более десяти лет), современное искусство, театр и новые медиа. Благодаря этому уникальному гибридизированному подходу он пытается раздвинуть границы тела и мышления, будь то собственных, его танцоров или его аудитории. Валентин Цзин регулярно проводит международные мастер-классы, чтобы вместе со своими учениками исследовать новые формы коллективного творчества. Идея о трансформируемости реальности из-за изменения физического тела и состояния ума является аксиальной по отношению к его методу. На его счету сотни проведенных мастер-классов и перформансов.</p>
+                     <p class="lead mb-4 mb-md-0"><b>VALENTIN TSZIN</b><br> Valentin Tszin is a Russian-born artist and dance researcher based in Berlin. His method (named 4/4 4/3 4/0) draws on the forms and fundamental principles of dramatic theatre, taekwondo, butoh and throat singing.
+                     <br>Tszin's body of work varies greatly in scale; he works across a contrasting range of formats, from ascetic solos to intricate group concepts. His projects have been presented to diverse audiences internationally, some having involved up to one hundred people. Interdisciplinary dialogue in the arts is the way forward, according to Tszin. Beyond just dance, he has been commissioned to produce works for a wide variety of contexts; he has been involved in the worlds of architecture (he created a piece to inaugurate a building designed by Zaha Hadid), film (he has had a career in cinema spanning over a decade), contemporary art, theatre, and new media. Through this unique hybridized approach, he attempts to push the boundaries of the body and mind, whether his own, his dancers' or his audience's.
+                     <br>He has been producing his most recent works in collaboration with various techno musicians.
+                     <br>Valentin Tszin regularly conducts international master classes to explore with his students the process of collective creation. The idea that one's perceptions of reality are malleable through the alteration of one's physical body and state of mind is one that is axial to his method, and one that he furthermore believes is capable of changing the way people create art and interact with the world on a larger scale.
+                    </p>
                   </div>
                </div>
             </div>

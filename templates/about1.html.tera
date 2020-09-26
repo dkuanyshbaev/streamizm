@@ -1,4 +1,4 @@
-{% extends "ru_layout" %}
+{% extends "layout" %}
 
 {% block content %}
       <main>
@@ -6,7 +6,7 @@
             <div class="container position-relative">
                <div class=row>
                   <div class=col>
-                     <h1 class=display-4>ИЛЬЯ БУРДИН</h1>
+                     <h1 class=display-4>ILYA BOORDIN</h1>
                      <div class="img-shifted shift-left py-12 py-lg-15" data-aos=fade-right>
                         <div class="bg-image bg-cover" style="background-image: url(/static/images/photos/photo1.jpg);" data-jarallax data-speed=.8></div>
                      </div>
@@ -19,10 +19,35 @@
             <div class=container>
                <div class=row>
                   <div class="col-md-7 col-lg-8" data-aos=fade-right>
-                     <p class="lead mb-4 mb-md-0"><b>ИЛЬЯ БУРДИН</b><br> Российский медиа художник, музыкант, продюсер. В данный момент базируется во Владивостоке. На протяжении 14 лет занимается развитием и популяризацией электронной музыки и визуального искусства на Дальнем Востоке. Основатель проектов CON и Дисциплина (Владивосток). С 2018 года Илья ведет активное сотрудничество с немецкими артистами Валентином Цзином, X tin, Дэниэлем Вильямсом и Станиславом Глазовым в рамках проекта ВЫРАЖЕНИЕ – ежегодного аудио-визуального перформанса, сочетающего в себе электронную музыку, хореографию и визуальное искусство. С осени 2019 года начал подготовку совместного проекта с Валентином Цзином «Музыка - Искусство – Дисциплина» и 101, аудио-визуального перформативного фестиваля в оффлайн и онлайн форматах. В апреле 2020 года они запустили образовательный проект BUTOH CHANNEL, посвященный японской культуре буто. Параллельно в условиях пандемии Илья открыл независимый стриминг-канал Archive.stream, цель которого – сбор архива работ электронных музыкантов и ди-джеев Дальнего Востока России.</p>
+                     <p class="lead mb-4 mb-md-0"><b>ILYA BOORDIN</b><br> Russian media artist, musician, producer.
+                        <br>Currently based in Vladivostok. For 14 years he has been developing and popularizing electronic music and visual art in the Far East of Russia. Founder of the CON and Discipline projects (Vladivostok)
+                        <br>Since 2018, Ilya has been actively collaborating with German artists Valentin Jing, X TIN, Daniel Williams and Stanislav Glazov as part of the EXPRESSION project, an annual audio-visual performance that combines electronic music, choreography and visual art.
+                        <br>Since the fall of 2019, Ilya and Valentin's joint project “Music - Art - Discipline”, an audio-visual performative festival via offline and online format, began to be prepared.
+                        <br>In April 2020, they are launching the BUTOH CHANNEL educational project dedicated to Japanese Butoh culture.
+                        <br>At the same time, amid a pandemic, Ilya launches an independent streaming channel Archive.stream, the purpose of which is to collect an archive of works by electronic musicians and DJs from the Russian Far East.
+                    </p>
                      <br>
                      <br>
-                     <p class="lead mb-4 mb-md-0"><b>ДИСЦИПЛИНА</b><br> Дальневосточное творческое объединение музыкантов, диджеев и художников. Главная цель проекта - пролить свет на электронную музыку, технологии и искусство путем организации соответствующих событий на Дальнем Востоке. В 2016 году  команда совместно с Гёте-Институтом в Новосибирске стала со-организатором саунд-арт события Unsound x CTM Dislocation. Летом 2017 года на крыше Морского вокзала провела крупное совместное мероприятие с лейблом «ТРИП» с участием Нины Кравиц. Осенью гостями их события стали резиденты киевского клуба Closer и берлинского Club der Visionaere. В 2018-2019 году на их мероприятиях выступил Ateq, резидент немецкого лейбла Giegling, а также резиденты авторитетных отечественных формаций Arma17 и Roots United.На сегодняшний день Владивосток смело можно назвать одним из самых прогрессивных городов восточной части России. В октябре 2020 года «Дисциплина» совместно с Гёте-Институтом в Новосибирске организует фестиваль, главной целью которого является популяризация электронной музыки и медиаискусства и объединение творческого потенциала Дальнего Востока, Европы и Азии.</p>
+                     <p class="lead mb-4 mb-md-0"><b>DISCIPLINA</b><br> Far Eastern Creative Association of
+                        musicians, DJs and artists.
+                        The main goal of the project is to shed light on electronic music,
+                        technology and art by organizing
+                        relevant events in the Far East of Russia.
+                        In 2016, our team, together with the Goethe Institute,
+                        became the organizer of Sound Art Unsound x CTM Dislocation.
+                        In 2017, in the summer, on the roof of the Marine Station, we held a major joint event with the TRIP label starring of Nina Kraviz.
+                        In autumn, the guests of our event were residents of the Kiev club "Closer" and the Berlin "Club der Visionaere"
+                        In 2018-2019, a resident spoke at our events
+                        German label Giegling - Ateq.
+                        As well as residents of reputable domestic formations
+                        Arma17 and Roots United.
+
+                        <br>Today, Vladivostok can be safely called
+                        the most progressive city in the eastern part of Russia. In October 2020, we, together with the Goethe Institute, are organizing a festival whose main goal
+                        is the popularization of electronic music and media art.
+                        By combining the creative potential of the Far East, Europe and Asia,
+                        we will get a fundamentally new cultural connection.
+                        </p>
                   </div>
                </div>
             </div>

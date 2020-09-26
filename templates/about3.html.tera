@@ -1,4 +1,4 @@
-{% extends "ru_layout" %}
+{% extends "layout" %}
 
 {% block content %}
       <main>
@@ -6,7 +6,7 @@
             <div class="container position-relative">
                <div class=row>
                   <div class=col>
-                     <h1 class=display-4>ПИТЕР КИРН</h1>
+                     <h1 class=display-4>PETER KIRN</h1>
                      <div class="img-shifted shift-left py-12 py-lg-15" data-aos=fade-right>
                         <div class="bg-image bg-cover" style="background-image: url(/static/images/photos/photo3.jpg);" data-jarallax data-speed=.8></div>
                      </div>
@@ -19,10 +19,10 @@
             <div class=container>
                <div class=row>
                   <div class="col-md-7 col-lg-8" data-aos=fade-right>
-                     <p class="lead mb-4 mb-md-0"><b>ПИТЕР КИРН</b></br> Живущий в Берлине журналист, куратор и композитор электронной музыки Питер Кирн обладает многогранной практикой в области творческих технологий, которая сделала его востребованным экспертом в вопросах развития электронного выражения. После классического обучения в Нью-Йорке, где он изучал композицию с Танией Леон и стал соучредителем Contemporary Ensemble при CUNY Graduate Center, он переехал в Берлин, где расширил возможности работы в электронных СМИ. С 2013 года он создал MusicMakers Hacklab в качестве программного партнера CTM Festival, международной среды для совместной работы, которая расширилась до сотрудничества с Nusasonic, Гёте-Институтом в Юго-Восточной Азии и MUTEK. Он также сотрудничал с Европейским агентством, ARTYPICAL, SONAR + D и TED, был источником творческих технологий, в том числе выступал в качестве консультанта Rockstar Games, Native Instruments и The New York Times. В 2020 году он является совладельцем лабораторий искусственного интеллекта с ARTYPICAL в MUTEK Montreal и TransArt [IT], Space Art Sound Lab с ARTYPICAL и Музеем космонавтики в Москве, а также со-курировал SPACE.ZERO в Калининграде при поддержке Посольства Великобритании в Москве. Является соавтором MeeBlip.</p>
+                     <p class="lead mb-4 mb-md-0"><b>PETER KIRN</b></br> Berlin-based journalist, curator, and composer/electronic artist Peter Kirn has a multi-faceted practice in creative technology that has made him a sought-after expert in how electronic expression can evolve. After a classical training in New York, where he studied composition with Tania León and co-founded the CUNY Graduate Center’s Contemporary Ensemble, he relocated in Berlin where he has expanded work in electronic media. Since 2013, he has produced the MusicMakers Hacklab as a program partner of CTM Festival, an international collaborative performance environment, which has expanded to collaborations with Nusasonic and Goethe-Institut Southeast Asia and MUTEK. He has also worked in collaborations with the European Space Agency, ARTYPICAL, SONAR+D, and TED, and has been a resource in creative technology including acting as consultant  to Rockstar Games, Native Instruments, and The New York Times, among others. In 2020, he is a co-host of AI labs with ARTYPICAL at MUTEK Montreal and TransArt [IT], the Space Art Sound Lab with ARTYPICAL and the Museum of Cosmonautics in Moscow, and co-curated SPACE.ZERO in Kaliningrad with support from the British Embassy in Moscow. He co-creates the MeeBlip hardware synthesizer. He has released music on Detroit Underground, Wunderblock Records, Kotä, Instruments of Discipline, Snork Enterprises, and his own Establishment.</p>
                      <br>
                      <br>
-                     <p class="lead mb-4 mb-md-0"><b>CDM</b><br> CDM является ведущим влиятельным путем распространения передовых творческих технологий в музыке и аудиовизуальных медиа с 2005 года с четвертью миллиона читателей ежемесячно и платформой для сообщества музыкальных технологий. В 2020-2021 годах CDM будет сотрудничать с конкурсом Гутмана Технологического университета Джорджии, чтобы совместно принять главный приз в мире в области дизайна музыкальных инструментов, наряду с партнерством с MUTEK Forum [CA], GAMMA_PRO [RU], ARTYPICAL [RU] и постоянным сотрудничеством с CTM Festival [DE]. <a href="https://cdm.link" target="_blank">https://cdm.link</a></p>
+                     <p class="lead mb-4 mb-md-0"><b>CDM</b><br> CDM has been a leading influential outlet for cutting-edge creative technology in music and audiovisual media since 2005, read by a quarter-million readers monthly, and a platform for community in music technology. In 2020-2021, CDM will partner with the Guthman Competition of Georgia Tech University to co-host the world’s top prize in musical instrument design, along with partnerships with MUTEK Forum [CA], GAMMA_PRO [RU], ARTYPICAL [RU], and ongoing partnerships with CTM Festival [DE]. <a href="https://cdm.link" target="_blank">https://cdm.link</a></p>
                   </div>
                </div>
             </div>
