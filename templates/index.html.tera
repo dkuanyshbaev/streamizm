@@ -103,8 +103,36 @@
                         <div class="tab-pane fade show active" id=day1 role=tabpanel aria-labelledby=day1-tab>
                             <p>LEARNING LAB</p>
                             <p>The first day amplifies the connection between Russian- and German-based artists and technologists pushing both virtual and physically embodied performance, with digital and movement tracks. This free open learning space is a chance for audiences in Russia and online to discover new skills and interact with leading practitioners from the program.</p>
+
+                        <div class=accordion id=accordionFAQs>
+                        <div class=card>
+                           <div class="card-header p-0 bg-light border-bottom" id=heading2>
+                              <h3 class="h4 mb-0">
+                                 <button class="btn btn-block d-flex font-weight-bold font-size-4 text-left rounded-0 px-4 px-lg-5 py-lg-4" type=button data-toggle=collapse data-target=#collapse2 aria-expanded=true aria-controls=collapse2>
+                                    Details:
+                                    <span class="collapse-arrow d-flex ml-auto">
+                                       <svg width=16 height=16 class=text-muted xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
+                                          <title>arrow-down-1</title>
+                                          <path d=M12,19.5a2.3,2.3,0,0,1-1.729-.78L.46,7.568A1.847,1.847,0,0,1,3.233,5.129l8.579,9.752a.25.25,0,0,0,.376,0l8.579-9.752A1.847,1.847,0,1,1,23.54,7.568L13.732,18.716A2.31,2.31,0,0,1,12,19.5Z />
+                                       </svg>
+                                    </span>
+                                 </button>
+                              </h3>
+                           </div>
+                           <div id=collapse2 class="collapse" aria-labelledby=heading2 data-parent=#accordionFAQs>
+                              <div class="card-body bg-light border-bottom px-4 px-lg-5 font-size-5">
+                                <p>This includes Berlin-native startup cables.gl, a powerful 3D environment that runs inside browsers (with free beta), discussions of AI, live and generative visuals, music synthesis with free and open source software, and butoh as a link between Berlin techno and performers across Russia and eastern Asia.</p>
+                                <p>Open to online audiences with opportunities to discuss and ask questions.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                            <!--
                             <p>This includes Berlin-native startup cables.gl, a powerful 3D environment that runs inside browsers (with free beta), discussions of AI, live and generative visuals, music synthesis with free and open source software, and butoh as a link between Berlin techno and performers across Russia and eastern Asia.</p>
                             <p>Open to online audiences with opportunities to discuss and ask questions.</p>
+                            -->
+                            <br>
                             <p><b>Vladivostok Time (VLAT) UTC+10:00</b></p>
                             <div class=table-responsive>
                                 <table class="table table-striped font-size-5 mb-0">
@@ -243,7 +271,7 @@
                                         </tr>
                                         <tr>
                                             <td>04:30</td>
-                                            <td>x_tin (DJ)</td>
+                                            <td>X tin (DJ)</td>
                                             <td>Studio dB, Berlin</td>
                                         </tr>
                                         <tr>
@@ -297,6 +325,16 @@
         </div>
     </section>
 
+    <section class="py-6 py-lg-7 register" id=content>
+            <div class=container>
+               <div class=row>
+               <div class=form-group>
+                <a type=button href="https://disciplina.timepad.ru/event/1440675/" target="_blank" class="btn btn-primary btn-lg btn-block text-uppercase">Register</a>
+               </div>
+               </div>
+            </div>
+         </section>
+
     <section class="bg-primary pt-7 text-white">
             <div class=container>
                <div class="row justify-content-between align-items-lg-center">
@@ -309,21 +347,25 @@
                      <picture>
                         <a href="/about/1"><img src=/static/images/photos/cut1.jpg class="img-fluid w-100"></a>
                      </picture>
+                     ILYA BOORDIN
                   </div>
                   <div class="col-sm-6 col-lg-3 px-3 mb-5" data-aos=zoom-in data-aos-delay=100>
                      <picture>
-                        <a href="/about/2"><img src=/static/images/photos/cut2.jpg class="img-fluid w-100"></a>
+                        <a href="/about/4"><img src=/static/images/photos/cut4.jpg class="img-fluid w-100"></a>
                      </picture>
+                     VALENTIN TSZIN
                   </div>
                   <div class="col-sm-6 col-lg-3 px-3 mb-5" data-aos=zoom-in data-aos-delay=200>
                      <picture>
                         <a href="/about/3"><img src=/static/images/photos/cut3.jpg class="img-fluid w-100"></a>
                      </picture>
+                     PETER KIRN
                   </div>
                   <div class="col-sm-6 col-lg-3 px-3 mb-5" data-aos=zoom-in data-aos-delay=300>
                      <picture>
-                        <a href="/about/4"><img src=/static/images/photos/cut4.jpg class="img-fluid w-100"></a>
+                        <a href="/about/2"><img src=/static/images/photos/cut2.jpg class="img-fluid w-100"></a>
                      </picture>
+                     OLGA BOORDINA
                   </div>
                </div>
             </div>

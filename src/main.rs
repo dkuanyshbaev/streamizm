@@ -4,22 +4,30 @@ extern crate rocket;
 #[macro_use]
 extern crate serde_derive;
 
+use lettre::transport::smtp::authentication::Credentials;
+use lettre::{Message, SmtpTransport, Transport};
+use rocket::request::Form;
+use rocket::response::Redirect;
 use rocket_contrib::serve::StaticFiles;
 use rocket_contrib::templates::Template;
 
 #[derive(Serialize)]
 struct NoContext {}
 
+#[derive(Debug, FromForm)]
+pub struct Letter {
+    name: String,
+    email: String,
+    message: String,
+}
+
 #[launch]
 fn rocket() -> rocket::Rocket {
     rocket::ignite()
         .attach(Template::fairing())
         .mount("/static", StaticFiles::from("static/"))
-        .mount("/", routes![index, live, about, education, contact])
-        .mount(
-            "/ru",
-            routes![ru_index, ru_live, ru_about, ru_education, ru_contact],
-        )
+        .mount("/", routes![index, live, about, contact, send])
+        .mount("/ru", routes![ru_index, ru_live, ru_about, ru_contact])
         .register(catchers![not_found])
 }
 
@@ -41,11 +49,6 @@ pub fn about(id: u8) -> Template {
         3 => Template::render("about3", NoContext {}),
         _ => Template::render("about4", NoContext {}),
     }
-}
-
-#[get("/education")]
-pub fn education() -> Template {
-    Template::render("education", NoContext {})
 }
 
 #[get("/contact")]
@@ -73,14 +76,36 @@ pub fn ru_about(id: u8) -> Template {
     }
 }
 
-#[get("/education")]
-pub fn ru_education() -> Template {
-    Template::render("ru_education", NoContext {})
-}
-
 #[get("/contact")]
 pub fn ru_contact() -> Template {
     Template::render("ru_contact", NoContext {})
+}
+
+#[post("/send", data = "<letter>")]
+pub fn send(letter: Form<Letter>) -> Redirect {
+    println!(">>>> {:?}", letter);
+
+    // let body_text = format!("Letter from 101Seasons.org: {}", letter.message);
+    //
+    // let email = Message::builder()
+    //     .from("from")
+    //     .to(letter.email)
+    //     .subject("101Seasons.org")
+    //     .body(body_text)
+    //     .unwrap();
+    //
+    // let creds = Credentials::new("username".to_string(), "pass".to_string());
+    // let mailer = SmtpTransport::relay("smtp.gmail.com")
+    //     .unwrap()
+    //     .credentials(creds)
+    //     .build();
+    //
+    // match mailer.send(&email) {
+    //     Ok(_) => println!("Email sent successfully!"),
+    //     Err(e) => println!("Could not send email: {:?}", e),
+    // }
+
+    Redirect::to("/")
 }
 
 #[catch(404)]

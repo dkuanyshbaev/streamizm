@@ -15,21 +15,37 @@
                         <div class="row no-gutters">
                            <div class="col-lg-7 p-4 p-lg-6 text-dark">
                               <h2 class=h3>Contact us</h2>
+                              <form method=post action=/send>
+                              <input type="hidden" name="_method" value="post" />
+
                               <div class="row mx-n2">
-                                 <div class="col-md px-2 mb-3"><input class=form-control type=text placeholder="Full name" aria-label="Full name"></div>
+                                 <div class="col-md px-2 mb-3">
+                                 <input class="form-control" name=name placeholder="Full name" aria-label="Full name" required
+                                oninvalid="this.setCustomValidity('Please enter name')"
+                                oninput="setCustomValidity('')"></input>
+                                </div>
                               </div>
                               <div class="row mx-n2">
-                                 <div class="col-md px-2 mb-3"><input class=form-control type=email placeholder="Email address" aria-label="Email address"></div>
+                                 <div class="col-md px-2 mb-3">
+                                 <input class=form-control type=email name=email placeholder="Email address" aria-label="Email address" required
+                                oninvalid="this.setCustomValidity('Please enter email')"
+                                oninput="setCustomValidity('')"></input>
+                                 </div>
                               </div>
                               <div class="row mx-n2">
-                                 <div class="col px-2 mb-3"><textarea class=form-control rows=7 placeholder=Message aria-label=Message></textarea></div>
+                                 <div class="col px-2 mb-3">
+                                 <textarea class=form-control name=message rows=7 placeholder=Message aria-label=Message required
+                                oninvalid="this.setCustomValidity('Please enter message')"
+                                oninput="setCustomValidity('')"></textarea>
+                                 </div>
                               </div>
                               <div class="row justify-content-between">
                                  <div class="col col-md-auto">
-                                    <button type=button class="btn btn-secondary text-uppercase d-inline-flex align-items-center w-100">
+                                    <button type=submit class="btn btn-secondary text-uppercase d-inline-flex align-items-center w-100">
                                        Send
                                     </button>
                                  </div>
+                                 </form>
                               </div>
                            </div>
                            <!--
