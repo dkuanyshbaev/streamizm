@@ -20,55 +20,65 @@
 
     <section class="bg-primary py-6 py-lg-7 text-white">
         <div class=container>
-            <!--
-                <div class=row>
-                <div class=col-lg>
-                <h2 class=h3>About the project</h2>
-                </div>
-                <div class="col-lg font-size-6">
-                <p>RE+EMBODIMENT produces new hybrid environments for interaction, bringing together a unique selection of multi-disciplinary artists in a program that is uniquely physical even in restricted times. Connecting the performance scenes in Berlin with emerging Vladivostok artists and audiences, and online across German, Russia, and internationally, the event is an immersive, intensive platform across two days. Beginning with artist talks and workshops engaging new audiences, the event’s highlight is a marathon session centered in Vladivostok, Moscow, and Berlin, as live streams from physical performance spaces offer live audiovisual concerts, movement performance, and club DJs. After sundown on Saturday, an innovative program of live-streamed projection mapping will appear on the Russky Bridge Vladivostok.</p>
-                <p class=mb-0>For one day and night, the Berlin and Vladivostok scenes will be able to coexist in a shared virtual space.</p>
-                </div>
-                </div>
-            -->
             <div class="row justify-content-center">
                 <div class=col-lg-10>
                     <p><b>RE+EMBODIMENT</b> produces new hybrid environments for interaction, bringing together a unique selection of multi-disciplinary artists in a program that is uniquely physical even in restricted times. Connecting the performance scenes in Berlin with emerging Vladivostok artists and audiences, and online across German, Russia, and internationally, the event is an immersive, intensive platform across two days.
                     <br>Beginning with artist talks and workshops engaging new audiences, the event’s highlight is a marathon session centered in Vladivostok, Moscow, and Berlin, as live streams from physical performance spaces offer live audiovisual concerts, movement performance, and club DJs.
                     <br>After sundown on Saturday, an innovative program of live-streamed projection mapping will appear on the Russky Bridge Vladivostok.
                     <br>For one day and night, the Berlin and Vladivostok scenes will be able to coexist in a shared virtual space.</p>
+                    <div class=accordion id=accordionFAQs>
+                        <div class=card>
+                           <div class="card-header p-0 bg-primary border-bottom" id=heading1>
+                              <h3 class="h4 mb-0">
+                                 <button class="btn btn-block d-flex font-weight-bold font-size-4 text-left rounded-0 px-4 px-lg-5 py-lg-4 text-white " type=button data-toggle=collapse data-target=#collapse1 aria-expanded=true aria-controls=collapse1>
+                                    Details:
+                                    <span class="collapse-arrow d-flex ml-auto">
+                                       <svg width=16 height=16 class=text-muted xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
+                                          <title>arrow-down-1</title>
+                                          <path d=M12,19.5a2.3,2.3,0,0,1-1.729-.78L.46,7.568A1.847,1.847,0,0,1,3.233,5.129l8.579,9.752a.25.25,0,0,0,.376,0l8.579-9.752A1.847,1.847,0,1,1,23.54,7.568L13.732,18.716A2.31,2.31,0,0,1,12,19.5Z />
+                                       </svg>
+                                    </span>
+                                 </button>
+                              </h3>
+                           </div>
+                           <div id=collapse1 class="collapse" aria-labelledby=heading1 data-parent=#accordionFAQs>
+                              <div class="card-body bg-primary border-bottom px-4 px-lg-5 font-size-5">
 
-                    <p>Live performances and premieres:</p>
+                                <p>Live performances and premieres:</p>
 
-                    <p><b>Zoë Mc Pherson</b> [FR/DE]
-                    <br><b>Valentin Tszin</b> [RU/DE] feat. <b>Daniel Williams</b> [UK/DE]
-                    <br><b>Ilya Boordin</b> [RU]
-                    <br><b>Peter Kirn</b> [US/DE] feat. <b>Petr Termen</b> [RU] and <b>Todd Reynolds</b> [US]
-                    <br><b>Michael Tan</b> [AU/DE]
-                    <br><b>Vadim Epstein</b> [RU]
-                    <br><b>Pokras Lampas</b> [RU]
-                    <br><b>nomoreless</b> [RU/DE]
-                    <br><b>Butohspielplatz</b> [DE]</p>
+                                <p><b>Zoë Mc Pherson</b> [FR/DE]
+                                <br><b>Valentin Tszin</b> [RU/DE] feat. <b>Daniel Williams</b> [UK/DE]
+                                <br><b>Ilya Boordin</b> [RU]
+                                <br><b>Peter Kirn</b> [US/DE] feat. <b>Petr Termen</b> [RU] and <b>Todd Reynolds</b> [US]
+                                <br><b>Michael Tan</b> [AU/DE]
+                                <br><b>Vadim Epstein</b> [RU]
+                                <br><b>Pokras Lampas</b> [RU]
+                                <br><b>nomoreless</b> [RU/DE]
+                                <br><b>Butohspielplatz</b> [DE]</p>
 
-                    <p>DJ sets by:</p>
+                                <p>DJ sets by:</p>
 
-                    <p><b>Dasha Rush</b> [RU/DE]
-                    <br><b>Magna Pia</b> [DE]
-                    <br><b>Hubert Spangler</b> [DE]
-                    <br><b>X tin</b> [AT/DE]
-                    <br><b>Glow</b> [RU]
-                    <br><b>Workpop</b> [RU]
-                    <br><b>Dove Enderson</b> [RU]</p>
+                                <p><b>Dasha Rush</b> [RU/DE]
+                                <br><b>Magna Pia</b> [DE]
+                                <br><b>Hubert Spangler</b> [DE]
+                                <br><b>X tin</b> [AT/DE]
+                                <br><b>Glow</b> [RU]
+                                <br><b>Workpop</b> [RU]
+                                <br><b>Dove Enderson</b> [RU]</p>
 
-                    <p>Artist talks and workshops by:</p>
+                                <p>Artist talks and workshops by:</p>
 
-                    <p><b>Peter Kirn</b> [US/DE]
-                    <br><b>cables.gl</b> [DE]
-                    <br><b>Vadim Epstein</b> [RU]
-                    <br><b>Valentin Tszin</b> [RU/DE]
-                    <br><b>Ilya Boordin</b> [RU]</p>
+                                <p><b>Peter Kirn</b> [US/DE]
+                                <br><b>cables.gl</b> [DE]
+                                <br><b>Vadim Epstein</b> [RU]
+                                <br><b>Valentin Tszin</b> [RU/DE]
+                                <br><b>Ilya Boordin</b> [RU]</p>
 
-                    <p>The project is produced collaboratively between Vladivostok and Berlin, by curators Peter Kirn of Create Digital Media GmbH, Berlin (and media partner CDM.link), Valentin Tszin, Berlin, and Ilya Boordin, Valdivostok. Presented with the support of Goethe-Institut Novosibirsk in the framework of the German Year in Russia.</p>
+                                <p>The project is produced collaboratively between Vladivostok and Berlin, by curators Peter Kirn of Create Digital Media GmbH, Berlin (and media partner CDM.link), Valentin Tszin, Berlin, and Ilya Boordin, Valdivostok. Presented with the support of Goethe-Institut Novosibirsk in the framework of the German Year in Russia.</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
                 </div>
             </div>
         </div>
@@ -81,8 +91,6 @@
                     <div class="row justify-content-between align-items-baseline">
                         <div class=col>
                             <h2>Program</h2>
-                        </div>
-                        <div class="col-auto small">
                             <ul class="nav nav-tabs border-0" id=myTab role=tablist>
                                 <li class=nav-item><a class="nav-link font-weight-bold px-2 border-0 active" id=day1-tab data-toggle=tab href=#day1 role=tab aria-controls=day1 aria-selected=true>October 2</a></li>
                                 <li class=nav-item><a class="nav-link font-weight-bold px-2 border-0" id=day2-tab data-toggle=tab href=#day2 role=tab aria-controls=day2 aria-selected=false>October 3</a></li>
@@ -90,6 +98,7 @@
                             </ul>
                         </div>
                     </div>
+                    <br>
                     <div class=tab-content id=myTabContent>
                         <div class="tab-pane fade show active" id=day1 role=tabpanel aria-labelledby=day1-tab>
                             <p>LEARNING LAB</p>
@@ -108,6 +117,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+                                         <tbody>
                                         <tr>
                                             <td>19:00</td>
                                             <td>Artist talk (Opening)</td>
@@ -145,21 +155,22 @@
                                             <td>Ru</td>
                                         </tr>
                                     </tbody>
+                                    </tbody>
                                 </table>
                             </div>
                         </div>
 
                         <div class="tab-pane fade" id=day2 role=tabpanel aria-labelledby=day2-tab>
-                            <p>Multi-city audiovisual performance</p>
+                            <p>MULTI-CITY AUDIOVISUAL PERFORMANCE</p>
                             <p>The second day transports cutting-edge live audiovisual performance and club programming into a virtual space, enabling these scenes to interact online rather than go silent. We have as a primary goal deepening connections between artists and making the link between the cultures and creative worlds of Germany and Russia, by presenting first-ever pairings of artists, collaborations, and co-present performances across geographies. Rather than be a surrogate for in-person venues, the online space is aligned to produce links that had not been possible before.</p>
+                            <p>On the club music side, highlights:</p>
 
-                            <p><b>On the club music side, highlights:</b></p>
                             <p>Berlin techno icon <b>Dasha Rush</b> joins from Mutabor, Moscow.
                             <br><b>Hubert Spangler</b> (TRADE, Overthinker Mob) shares adventurous club music and eye-popping visual production from this leading German tastemaker.
                             <br><b>Magna Pia</b> (Hüseyin Evirgen, half of Cassegrain / Ostgut Ton, Killekill) reveals new directions in deep techno, framed by <b>X tin</b> (UY Studio), whose dark fetishistic aesthetic straddles the world of Berlin fashion.
                             <br>Emerging Vladivostok DJs <b>Glow</b>, <b>Workpop</b>, <b>Dove Enderson</b> expose their city’s vibrant evolving scene.</p>
-                            <p>Live performances exploit the online conditions to produce stunning new ideas for performance, including:
-                            <br><b>Valentin Tszin</b> and <b>Ilya Boordin</b> use streaming as a medium, connecting dancers from across Russia with Berlin performers in a site-specific online performance across borders.
+                            <p>Live performances exploit the online conditions to produce stunning new ideas for performance, including:</p>
+                            <p><b>Valentin Tszin</b> and <b>Ilya Boordin</b> use streaming as a medium, connecting dancers from across Russia with Berlin performers in a site-specific online performance across borders.
                             <br><b>Zoë Mc Pherson</b>, composer / sound designer and founder of the new AV label SFX, offers her searing and inventive performance.
                             <br><b>Peter Kirn</b> brings together pioneer of NYC’s downtown scene <b>Todd Reynolds</b> (Ethel, Bang on a Can, Steve Reich Ensemble) with Russia’s <b>Peter Termen</b> playing on his great grandfather’s invention, in a composition for streamed international Theremin and violin constructed live in Berlin - and tracing Leon Theremin’s own journey from Manhattan to Moscow.
                             <br><b>Vadim Epstein</b> will share his experience in working with advanced audiovisual programs based on artificial intelligence. Some of the effects and techniques from the lecture will be used in projection, so the audience can fully appreciate the result of the work.
@@ -198,17 +209,17 @@
                                         <tr>
                                             <td>22:00</td>
                                             <td>Glow (DJ)</td>
-                                            <td>Online</td>
+                                            <td>Vladivostok, Golden Bridge</td>
                                         </tr>
                                         <tr>
                                             <td>23:00</td>
                                             <td>Workpop (DJ)</td>
-                                            <td>Online</td>
+                                            <td>Vladivostok, Golden Bridge</td>
                                         </tr>
                                         <tr>
                                             <td>00:00</td>
                                             <td>Dove Enderson (DJ)</td>
-                                            <td>Online</td>
+                                            <td>Vladivostok, Golden Bridge</td>
                                         </tr>
                                         <tr>
                                             <td>01:00</td>
@@ -251,7 +262,7 @@
                         </div>
 
                         <div class="tab-pane fade" id=day3 role=tabpanel aria-labelledby=day3-tab>
-                            <p>Restream of performances</p>
+                            <p>RESTREAM OF PERFORMANCES</p>
                             <p><b>Vladivostok Time (VLAT) UTC+10:00</b></p>
                             <div class=table-responsive>
                                 <table class="table table-striped font-size-5 mb-0">
@@ -286,79 +297,36 @@
         </div>
     </section>
 
-    <section class="py-6 py-lg-7 no_top">
-        <div class=container>
-            <div class="row justify-content-center">
-                <div class=col-md-11>
-                    <div class=row>
-                        <div class="col-12 text-center">
-                            <h2>About the team and presenters:</h2>
-                            <br>
-                        </div>
-                        <div class=col-lg-6 data-aos=fade-right>
-                            <p class="mb-4 mb-lg-6"><b>DISCIPLINA</b><br>
-                            Far Eastern Creative Association of
-                            musicians, DJs and artists.
-                            The main goal of the project is to shed light on electronic music,
-                            technology and art by organizing
-                            relevant events in the Far East of Russia.
-                            In 2016, our team, together with the Goethe Institute,
-                            became the organizer of Sound Art Unsound x CTM Dislocation.
-                            In 2017, in the summer, on the roof of the Marine Station, we held a major joint event with the TRIP label starring of Nina Kravitz.
-                            In autumn, the guests of our event were residents of the Kiev club "Closer" and the Berlin "Club der Visionaere"
-                            In 2018-2019, a resident spoke at our events
-                            German label Giegling - Ateq.
-                            As well as residents of reputable domestic formations
-                            Arma17 and Roots United.
-
-                            Today, Vladivostok can be safely called
-                            the most progressive city in the eastern part of Russia.In October 2020, we, together with the Goethe Institute, are organizing a festival whose main goal
-                            is the popularization of electronic music and media art.
-                            By combining the creative potential of the Far East, Europe and Asia,
-                            we will get a fundamentally new cultural connection.
-                            </p>
-                        </div>
-                        <div class=col-lg-6 data-aos=fade-left>
-                            <p><b>Valentin Tszin</b><br> is a Russian-born artist and dance researcher based in Berlin. His method (named 4/4 4/3 4/0) draws on the forms and fundamental principles of dramatic theatre, taekwondo, butoh and throat singing.
-                            Tszin's body of work varies greatly in scale; he works across a contrasting range of formats, from ascetic solos to intricate group concepts. His projects have been presented to diverse audiences internationally, some having involved up to one hundred people.
-                            Interdisciplinary dialogue in the arts is the way forward, according to Tszin. Beyond just dance, he has been commissioned to produce works for a wide variety of contexts; he has been involved in the worlds of architecture (he created a piece to inaugurate a building designed by Zaha Hadid), film (he has had a career in cinema spanning over a decade), contemporary art, theatre, and new media. Through this unique hybridized approach, he attempts to push the boundaries of the body and mind, whether his own, his dancers' or his audience's.
-
-                            He has been producing his most recent works in collaboration with various techno musicians.
-                            Valentin Tszin regularly conducts international master classes to explore with his students the process of collective creation. The idea that one's perceptions of reality are malleable through the alteration of one's physical body and state of mind is one that is axial to his method, and one that he furthermore believes is capable of changing the way people create art and interact with the world on a larger scale.
-                            </p>
-                        </div>
-                    </div>
-                    <div class=row>
-                        <div class=col-lg-6 data-aos=fade-right>
-                            <p class="mb-4 mb-lg-6"><b>ILYA BOORDIN</b><br>
-                            Russian media artist, musician, producer.
-                            Currently based in Vladivostok. For 14 years he has been developing and popularizing electronic music and visual art in the Far East of Russia. Founder of the CON and Discipline projects (Vladivostok)
-                            Since 2018, Ilya has been actively collaborating with German artists Valentin Jing, X TIN, Daniel Williams and Stanislav Glazov as part of the EXPRESSION project, an annual audio-visual performance that combines electronic music, choreography and visual art.
-                            Since the fall of 2019, Ilya and Valentin's joint project “Music - Art - Discipline”, an audio-visual performative festival via offline and online format, began to be prepared.
-                            In April 2020, they are launching the BUTOH CHANNEL educational project dedicated to Japanese Butoh culture.
-                            At the same time, amid a pandemic, Ilya launches an independent streaming channel Archive.stream, the purpose of which is to collect an archive of works by electronic musicians and DJs from the Russian Far East.
-                            </p>
-                        </div>
-                        <div class=col-lg-6 data-aos=fade-left>
-                            <p><b>PETER KIRN</b><br> Berlin-based journalist, curator, and composer/electronic artist Peter Kirn has a multi-faceted practice in creative technology that has made him a sought-after expert in how electronic expression can evolve. After a classical training in New York, where he studied composition with Tania León and co-founded the CUNY Graduate Center’s Contemporary Ensemble, he relocated in Berlin where he has expanded work in electronic media. Since 2013, he has produced the MusicMakers Hacklab as a program partner of CTM Festival, an international collaborative performance environment, which has expanded to collaborations with Nusasonic and Goethe-Institut Southeast Asia and MUTEK. He has also worked in collaborations with the European Space Agency, ARTYPICAL, SONAR+D, and TED, and has been a resource in creative technology including acting as consultant  to Rockstar Games, Native Instruments, and The New York Times, among others. In 2020, he is a co-host of AI labs with ARTYPICAL at MUTEK Montreal and TransArt [IT], the Space Art Sound Lab with ARTYPICAL and the Museum of Cosmonautics in Moscow, and co-curated SPACE.ZERO in Kaliningrad with support from the British Embassy in Moscow. He co-creates the MeeBlip hardware synthesizer. He has released music on Detroit Underground, Wunderblock Records, Kotä, Instruments of Discipline, Snork Enterprises, and his own Establishment.</p>
-                        </div>
-                    </div>
-                    <div class=row>
-                        <div class=col-lg-6 data-aos=fade-right>
-                            <p class="mb-4 mb-lg-6"><b>CDM</b><br>
-                            CDM has been a leading influential outlet for cutting-edge creative technology in music and audiovisual media since 2005, read by a quarter-million readers monthly, and a platform for community in music technology. In 2020-2021, CDM will partner with the Guthman Competition of Georgia Tech University to co-host the world’s top prize in musical instrument design, along with partnerships with MUTEK Forum [CA], GAMMA_PRO [RU], ARTYPICAL [RU], and ongoing partnerships with CTM Festival [DE].
-                            <a target="_blank" href="https://cdm.link">https://cdm.link</a></p>
-                        </div>
-                        <div class=col-lg-6 data-aos=fade-left>
-                            <p><b>OLGA BOORDINA</b><br>
-                            specialist in the field of intercultural communication, coordinator, translator.
-                            is the curator of the Russian and Asian directions in the Discipline project. since 2001 she has lived in Japan. She graduated from the course of simultaneous translation at the University of Tokyo, worked in Tokyo. At the moment she is engaged in communications with foreign artists. in the RE + EMBODIMENT Project coordinates the Russian program.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+    <section class="bg-primary pt-7 text-white">
+            <div class=container>
+               <div class="row justify-content-between align-items-lg-center">
+                  <div class=col>
+                     <h2>About the team and presenters:</h2><br>
+                  </div>
+               </div>
+               <div class="row px-3">
+                  <div class="col-sm-6 col-lg-3 px-3 mb-5" data-aos=zoom-in>
+                     <picture>
+                        <a href="/about/1"><img src=/static/images/photos/cut1.jpg class="img-fluid w-100"></a>
+                     </picture>
+                  </div>
+                  <div class="col-sm-6 col-lg-3 px-3 mb-5" data-aos=zoom-in data-aos-delay=100>
+                     <picture>
+                        <a href="/about/2"><img src=/static/images/photos/cut2.jpg class="img-fluid w-100"></a>
+                     </picture>
+                  </div>
+                  <div class="col-sm-6 col-lg-3 px-3 mb-5" data-aos=zoom-in data-aos-delay=200>
+                     <picture>
+                        <a href="/about/3"><img src=/static/images/photos/cut3.jpg class="img-fluid w-100"></a>
+                     </picture>
+                  </div>
+                  <div class="col-sm-6 col-lg-3 px-3 mb-5" data-aos=zoom-in data-aos-delay=300>
+                     <picture>
+                        <a href="/about/4"><img src=/static/images/photos/cut4.jpg class="img-fluid w-100"></a>
+                     </picture>
+                  </div>
+               </div>
             </div>
-        </div>
-    </section>
+         </section>
 </main>
 {% endblock content %}
