@@ -1,0 +1,28 @@
+{% extends "ru_layout" %}
+
+{% block content %}
+      <main>
+         <section class="bg-primary pt-11 mb-6 pt-lg-12 mb-lg-7 text-white bg-layer-white-bottom-20-left-100">
+            <div class="container position-relative">
+               <div class=row>
+                  <div class=col>
+                     <h1 class=display-4>ОЛЬГА БУРДИНА</h1>
+                     <div class="img-shifted shift-left py-12 py-lg-15" data-aos=fade-right>
+                        <div class="bg-image bg-cover" style="background-image: url(/static/images/photos/photo2.jpg);" data-jarallax data-speed=.8></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="py-6 py-lg-7" id=content>
+            <div class=container>
+               <div class=row>
+                  <div class="col-md-7 col-lg-8" data-aos=fade-right>
+                     <p class="lead mb-4 mb-md-0"><b>Ольга Бурдина</b><br> Специалист сферы межкультурных коммуникаций, координатор, переводчик. Является куратором российского и азиатского направления в проекте «Дисциплина». С 2001 года жила в Японии. Закончила курс синхронного перевода при Токийском Университете, работала в Токио. В Проекте RE+EMBODIMENT координирует российскую программу и занимается коммуникациями с иностранными артистами.</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+{% endblock content %}

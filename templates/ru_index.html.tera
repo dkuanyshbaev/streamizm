@@ -306,6 +306,7 @@
         </div>
     </section>
 
+    <!--
     <section class="py-6 py-lg-7 no_top">
         <div class=container>
             <div class="row justify-content-center">
@@ -342,5 +343,37 @@
             </div>
         </div>
     </section>
+    -->
+    <section class="bg-primary pt-7 text-white">
+            <div class=container>
+               <div class="row justify-content-between align-items-lg-center">
+                  <div class=col>
+                     <h2>О команде и ведущих:</h2><br>
+                  </div>
+               </div>
+               <div class="row px-3">
+                  <div class="col-sm-6 col-lg-3 px-3 mb-5" data-aos=zoom-in>
+                     <picture>
+                        <a href="/ru/about/1"><img src=/static/images/photos/cut1.jpg class="img-fluid w-100"></a>
+                     </picture>
+                  </div>
+                  <div class="col-sm-6 col-lg-3 px-3 mb-5" data-aos=zoom-in data-aos-delay=100>
+                     <picture>
+                        <a href="/ru/about/2"><img src=/static/images/photos/cut2.jpg class="img-fluid w-100"></a>
+                     </picture>
+                  </div>
+                  <div class="col-sm-6 col-lg-3 px-3 mb-5" data-aos=zoom-in data-aos-delay=200>
+                     <picture>
+                        <a href="/ru/about/3"><img src=/static/images/photos/cut3.jpg class="img-fluid w-100"></a>
+                     </picture>
+                  </div>
+                  <div class="col-sm-6 col-lg-3 px-3 mb-5" data-aos=zoom-in data-aos-delay=300>
+                     <picture>
+                        <a href="/ru/about/4"><img src=/static/images/photos/cut4.jpg class="img-fluid w-100"></a>
+                     </picture>
+                  </div>
+               </div>
+            </div>
+         </section>
 </main>
 {% endblock content %}
