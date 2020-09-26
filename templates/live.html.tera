@@ -2,27 +2,8 @@
 
 {% block content %}
 <main>
-    <section class="bg-primary pt-11 mb-6 pt-lg-12 mb-lg-7 text-white bg-layer-white-bottom-20-left-100">
-        <div class="container position-relative">
-            <span class="position-absolute bottom-0 right-0 mr-n5 opacity-30">
-                <svg class=fill-primary width=30 height=30 xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
-                    <title>diagram-arrow-down</title>
-                    <path d=M5.5,15.215A1,1,0,0,0,4.767,16.9l6.16,6.633a1.458,1.458,0,0,0,2.146,0l6.16-6.633a1,1,0,0,0-.733-1.681H15.25a.25.25,0,0,1-.25-.25V1.5A1.5,1.5,0,0,0,13.5,0h-3A1.5,1.5,0,0,0,9,1.5V14.965a.25.25,0,0,1-.25.25Z />
-                </svg>
-            </span>
-            <div class=row>
-                <div class=col>
-                    <h1 class=display-4>Play</h1>
-                    <div class="img-shifted shift-left py-12 py-lg-15" data-aos=fade-right>
-                        <div class="bg-image bg-cover bg-position-bottom-center" style="background-image: url(static/images/photos/photo-01.jpg);" data-jarallax data-speed=.8></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="py-6 py-lg-7 overflow-hidden">
-        <div class="container-fluid px-0">
+    <section class="bg-primary py-6 py-lg-7 text-white">
+        <div class="container-fluid px-0 play">
             <div class=row>
                 <div class=col>
                     <div class="swiper container position-relative">
@@ -31,7 +12,7 @@
                                 <div class=swiper-slide>
                                     <a href=#>
                                         <picture>
-                                            <img src=static/images/main.jpg alt=photo-02 class="img-fluid w-100">
+                                            <img src=/static/images/main.jpg alt=photo-02 class="img-fluid w-100">
                                         </picture>
                                     </a>
                                 </div>
