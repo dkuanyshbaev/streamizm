@@ -34,6 +34,8 @@
                     <ul class="navbar-nav ml-auto">
                         <li class=nav-item><a class=nav-link href="/ru">Главная</a></li>
                         <li class=nav-item><a class=nav-link href="/ru/live">Лайв</a></li>
+                        <li class=nav-item><a class=nav-link href="/ru/education">Обучение</a></li>
+                        <li class=nav-item><a class=nav-link href="/ru/contact">Контакт</a></li>
                     </ul>
                     <a class="btn btn-sm btn-secondary text-uppercase mt-3 mt-lg-0 ml-lg-4 d-block d-lg-inline-block" href=/ >EN</a>
                 </div>

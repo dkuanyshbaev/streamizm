@@ -30,4 +30,3 @@
          </section>
       </main>
 {% endblock content %}
-

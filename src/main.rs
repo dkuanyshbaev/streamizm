@@ -15,8 +15,11 @@ fn rocket() -> rocket::Rocket {
     rocket::ignite()
         .attach(Template::fairing())
         .mount("/static", StaticFiles::from("static/"))
-        .mount("/", routes![index, live, about, contact])
-        .mount("/ru", routes![ru_index, ru_live, ru_about, ru_contact])
+        .mount("/", routes![index, live, about, education, contact])
+        .mount(
+            "/ru",
+            routes![ru_index, ru_live, ru_about, ru_education, ru_contact],
+        )
         .register(catchers![not_found])
 }
 
@@ -38,6 +41,11 @@ pub fn about(id: u8) -> Template {
         3 => Template::render("about3", NoContext {}),
         _ => Template::render("about4", NoContext {}),
     }
+}
+
+#[get("/education")]
+pub fn education() -> Template {
+    Template::render("education", NoContext {})
 }
 
 #[get("/contact")]
@@ -63,6 +71,11 @@ pub fn ru_about(id: u8) -> Template {
         3 => Template::render("ru_about3", NoContext {}),
         _ => Template::render("ru_about4", NoContext {}),
     }
+}
+
+#[get("/education")]
+pub fn ru_education() -> Template {
+    Template::render("ru_education", NoContext {})
 }
 
 #[get("/contact")]
