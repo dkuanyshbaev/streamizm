@@ -24,7 +24,7 @@
                 <a href=#content class="skip-to-main sr-only-focusable" role=button>Skip to main content</a>
 
                 <a class="navbar-brand mr-auto logo_margin" href="/ru" aria-label="Click to go back to Homepage">
-                    <svg width=160 height=50 class=logo xmlns=http://www.w3.org/2000/svg viewBox="0 0 701 217">
+                    <svg width=190 height=50 class=logo xmlns=http://www.w3.org/2000/svg viewBox="0 0 701 217">
                         <img src="/static/images/logo.svg">
                     </svg>
                 </a>
