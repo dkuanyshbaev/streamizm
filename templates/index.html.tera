@@ -192,6 +192,43 @@
                         <div class="tab-pane fade" id=day2 role=tabpanel aria-labelledby=day2-tab>
                             <p>MULTI-CITY AUDIOVISUAL PERFORMANCE</p>
                             <p>The second day transports cutting-edge live audiovisual performance and club programming into a virtual space, enabling these scenes to interact online rather than go silent. We have as a primary goal deepening connections between artists and making the link between the cultures and creative worlds of Germany and Russia, by presenting first-ever pairings of artists, collaborations, and co-present performances across geographies. Rather than be a surrogate for in-person venues, the online space is aligned to produce links that had not been possible before.</p>
+
+                            <div class=accordion id=accordionFAQs>
+                            <div class=card>
+                            <div class="card-header p-0 bg-light border-bottom" id=heading3>
+                                <h3 class="h4 mb-0">
+                                    <button class="btn btn-block d-flex font-weight-bold font-size-4 text-left rounded-0 px-4 px-lg-5 py-lg-4" type=button data-toggle=collapse data-target=#collapse3 aria-expanded=true aria-controls=collapse3>
+                                        Details:
+                                        <span class="collapse-arrow d-flex ml-auto">
+                                        <svg width=16 height=16 class=text-muted xmlns=http://www.w3.org/2000/svg viewBox="0 0 24 24">
+                                            <title>arrow-down-1</title>
+                                            <path d=M12,19.5a2.3,2.3,0,0,1-1.729-.78L.46,7.568A1.847,1.847,0,0,1,3.233,5.129l8.579,9.752a.25.25,0,0,0,.376,0l8.579-9.752A1.847,1.847,0,1,1,23.54,7.568L13.732,18.716A2.31,2.31,0,0,1,12,19.5Z />
+                                        </svg>
+                                        </span>
+                                    </button>
+                                </h3>
+                            </div>
+                            <div id=collapse3 class="collapse" aria-labelledby=heading3 data-parent=#accordionFAQs>
+                                <div class="card-body bg-light border-bottom px-4 px-lg-5 font-size-5">
+                                    <p>On the club music side, highlights:</p>
+
+                                    <p>Berlin techno icon <b>Dasha Rush</b> joins from Mutabor, Moscow.
+                                    <br><b>Hubert Spangler</b> (TRADE, Overthinker Mob) shares adventurous club music and eye-popping visual production from this leading German tastemaker.
+                                    <br><b>Magna Pia</b> (Hüseyin Evirgen, half of Cassegrain / Ostgut Ton, Killekill) reveals new directions in deep techno, framed by <b>X tin</b> (UY Studio), whose dark fetishistic aesthetic straddles the world of Berlin fashion.
+                                    <br>Emerging Vladivostok DJs <b>Glow</b>, <b>Workpop</b>, <b>Dove Enderson</b> expose their city’s vibrant evolving scene.</p>
+                                    <p>Live performances exploit the online conditions to produce stunning new ideas for performance, including:</p>
+                                    <p><b>Valentin Tszin</b> and <b>Ilya Boordin</b> use streaming as a medium, connecting dancers from across Russia with Berlin performers in a site-specific online performance across borders.
+                                    <br><b>Zoë Mc Pherson</b>, composer / sound designer and founder of the new AV label SFX, offers her searing and inventive performance.
+                                    <br><b>Peter Kirn</b> brings together pioneer of NYC’s downtown scene <b>Todd Reynolds</b> (Ethel, Bang on a Can, Steve Reich Ensemble) with Russia’s <b>Peter Termen</b> playing on his great grandfather’s invention, in a composition for streamed international Theremin and violin constructed live in Berlin - and tracing Leon Theremin’s own journey from Manhattan to Moscow.
+                                    <br><b>Vadim Epstein</b> will share his experience in working with advanced audiovisual programs based on artificial intelligence. Some of the effects and techniques from the lecture will be used in projection, so the audience can fully appreciate the result of the work.
+                                    <br><b>Pokras Lampas</b> – One of the brightest representatives of modern calligraphy, the founder of a new direction in art - Calligrafuturism. Creates large-scale calligraphic compositions in an urban environment, constantly experimenting with the shapes and possibilities of fonts. In Vladivostok, work will be presented in an audio-visual format.</p>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+
+
+                            <!--
                             <p>On the club music side, highlights:</p>
 
                             <p>Berlin techno icon <b>Dasha Rush</b> joins from Mutabor, Moscow.
@@ -204,6 +241,9 @@
                             <br><b>Peter Kirn</b> brings together pioneer of NYC’s downtown scene <b>Todd Reynolds</b> (Ethel, Bang on a Can, Steve Reich Ensemble) with Russia’s <b>Peter Termen</b> playing on his great grandfather’s invention, in a composition for streamed international Theremin and violin constructed live in Berlin - and tracing Leon Theremin’s own journey from Manhattan to Moscow.
                             <br><b>Vadim Epstein</b> will share his experience in working with advanced audiovisual programs based on artificial intelligence. Some of the effects and techniques from the lecture will be used in projection, so the audience can fully appreciate the result of the work.
                             <br><b>Pokras Lampas</b> – One of the brightest representatives of modern calligraphy, the founder of a new direction in art - Calligrafuturism. Creates large-scale calligraphic compositions in an urban environment, constantly experimenting with the shapes and possibilities of fonts. In Vladivostok, work will be presented in an audio-visual format.</p>
+                            -->
+
+                            <br>
                             <p><b>Vladivostok Time (VLAT) UTC+10:00</b></p>
                             <div class=table-responsive>
                                 <table class="table table-striped font-size-5 mb-0">
@@ -340,7 +380,7 @@
             <div class=container>
                <div class="row justify-content-between align-items-lg-center">
                   <div class=col>
-                     <h2>About the team and presenters:</h2><br>
+                     <h2>The team:</h2><br>
                   </div>
                </div>
                <div class="row px-3">
