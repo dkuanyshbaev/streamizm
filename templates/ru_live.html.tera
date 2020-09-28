@@ -10,6 +10,7 @@
                         <div class="swiper-container swiper-scaled overflow-visible" data-options='{"centeredSlides": true, "slidesPerView": "auto", "loop": true, "spaceBetween": 64}'>
                             <div class=swiper-wrapper>
                                 <div class=swiper-slide>
+                                    <p>Вы можете воспользоваться нашим Live плеером. Все события можно смотреть в высоком цифровом качестве с использованием мультиракурсов.</p>
                                     <a href=#>
                                         <picture>
                                             <img src=/static/images/main.jpg alt=photo-02 class="img-fluid w-100">

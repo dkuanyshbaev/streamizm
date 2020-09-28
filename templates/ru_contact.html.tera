@@ -14,7 +14,7 @@
                     <div class="bg-white shadow-lg">
                         <div class="row no-gutters">
                            <div class="col-lg-7 p-4 p-lg-6 text-dark">
-                              <h2 class=h3>Напишите нам</h2>
+                              <h2 class=h3>Мы открыты к коллаборациям.</h2>
 
                               <form method=post action=/send>
                               <input type="hidden" name="_method" value="post" />
