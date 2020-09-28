@@ -13,7 +13,7 @@
                                     <p>Вы можете воспользоваться нашим Live плеером. Все события можно смотреть в высоком цифровом качестве с использованием мультиракурсов.</p>
                                     <a href=#>
                                         <picture>
-                                            <img src=/static/images/main.jpg alt=photo-02 class="img-fluid w-100">
+                                            <img src=/static/images/player.jpg alt=photo-02 class="img-fluid w-100">
                                         </picture>
                                     </a>
                                 </div>
