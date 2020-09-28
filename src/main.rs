@@ -8,8 +8,10 @@ use lettre::transport::smtp::authentication::Credentials;
 use lettre::{Message, SmtpTransport, Transport};
 use rocket::request::Form;
 use rocket::response::Redirect;
+use rocket::State;
 use rocket_contrib::serve::StaticFiles;
 use rocket_contrib::templates::Template;
+use std::{env, process};
 
 #[derive(Serialize)]
 struct NoContext {}
@@ -21,9 +23,28 @@ pub struct Letter {
     message: String,
 }
 
+pub struct Config {
+    pub email: String,
+    pub password: String,
+}
+
+impl Config {
+    pub fn new() -> Result<Config, std::env::VarError> {
+        let email = env::var("EMAIL")?;
+        let password = env::var("PASSWORD")?;
+        Ok(Config { email, password })
+    }
+}
+
 #[launch]
 fn rocket() -> rocket::Rocket {
+    let config = Config::new().unwrap_or_else(|err| {
+        println!("Can't parsing config: {}", err);
+        process::exit(1);
+    });
+
     rocket::ignite()
+        .manage(config)
         .attach(Template::fairing())
         .mount("/static", StaticFiles::from("static/"))
         .mount("/", routes![index, live, about, contact, send])
@@ -82,28 +103,27 @@ pub fn ru_contact() -> Template {
 }
 
 #[post("/send", data = "<letter>")]
-pub fn send(letter: Form<Letter>) -> Redirect {
-    println!(">>>> {:?}", letter);
+pub fn send(config: State<Config>, letter: Form<Letter>) -> Redirect {
+    let email = Message::builder()
+        .from(config.email.parse().unwrap())
+        .to(config.email.parse().unwrap())
+        .subject("101Seasons.org - Contact message")
+        .body(format!(
+            "Name: {}. Email: {}. Message: {}",
+            letter.name, letter.email, letter.message
+        ))
+        .unwrap();
 
-    // let body_text = format!("Letter from 101Seasons.org: {}", letter.message);
-    //
-    // let email = Message::builder()
-    //     .from("from")
-    //     .to(letter.email)
-    //     .subject("101Seasons.org")
-    //     .body(body_text)
-    //     .unwrap();
-    //
-    // let creds = Credentials::new("username".to_string(), "pass".to_string());
-    // let mailer = SmtpTransport::relay("smtp.gmail.com")
-    //     .unwrap()
-    //     .credentials(creds)
-    //     .build();
-    //
-    // match mailer.send(&email) {
-    //     Ok(_) => println!("Email sent successfully!"),
-    //     Err(e) => println!("Could not send email: {:?}", e),
-    // }
+    let creds = Credentials::new(config.email.to_string(), config.password.to_string());
+    let mailer = SmtpTransport::relay("smtp.gmail.com")
+        .unwrap()
+        .credentials(creds)
+        .build();
+
+    match mailer.send(&email) {
+        Ok(_) => println!("Email sent successfully!"),
+        Err(e) => println!("Could not send email: {:?}", e),
+    }
 
     Redirect::to("/")
 }
