@@ -1,6 +1,9 @@
 .logo_margin {
     margin-left: -180px;
-    /* margin-left: -160px; */
+}
+
+.footer_logo {
+    margin-left: -8px;
 }
 
 .no_top {
@@ -18,4 +21,39 @@
 
 .partners {
     margin-left: -17px;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #13B8EE;
+    border-color: #13B8EE;
+    box-shadow: none !important;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #11DBF9;
+    border-color: #11DBF9;
+    box-shadow: none !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #13B8EE;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.text-secondary {
+    color: #13B8EE !important;
+}
+
+.navbar-nav .nav-link::before {
+    content: "";
+    position: absolute;
+    left: 1.25rem;
+    right: 1.25rem;
+    bottom: -3px;
+    height: 3px;
+    background-color: #13B8EE ;
+    opacity: 0;
 }
