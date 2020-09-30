@@ -169,5 +169,6 @@
         </div>
         <script src=/static/js/theme.core.min.js></script>
         <script src=/static/js/theme.min.js></script>
+        <script src=/static/js/dash.all.min.js></script>
     </body>
 </html>

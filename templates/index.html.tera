@@ -10,7 +10,7 @@
                         <img src="/static/images/partners.png" width=420 class=partners>
                         <p class="small mb-n2 opacity-70">2-4.10.2020 | Music, live media, online streaming and rebroadcast<br>Berlin, Germany | Moscow, Russia | Vladivostok, Russia</p>
                         <h1 class="display-3 mb-5">RE+EMBODIMENT</h1>
-                        <a href=/ data-scroll class="btn btn-secondary text-uppercase d-inline-flex align-items-center">
+                        <a href=/live data-scroll class="btn btn-secondary text-uppercase d-inline-flex align-items-center">
                             Watch now
                         </a>
                     </div>
@@ -257,22 +257,22 @@
                                     <tbody>
                                         <tr>
                                             <td>20:00</td>
-                                            <td>AV live launch</td>
+                                            <td>AV launch</td>
                                             <td>Vladivostok, Golden Bridge</td>
                                         </tr>
                                         <tr>
                                             <td>20:20</td>
-                                            <td>Vadim Epstein (AV live)</td>
+                                            <td>Vadim Epstein (AV)</td>
                                             <td>Vladivostok, Golden Bridge</td>
                                         </tr>
                                         <tr>
                                             <td>20:45</td>
-                                            <td>Pokras Lampas (AV live)</td>
+                                            <td>Pokras Lampas (AV)</td>
                                             <td>Vladivostok, Golden Bridge</td>
                                         </tr>
                                         <tr>
                                             <td>21:00</td>
-                                            <td>Valentin Tszin / Ilya Boordin present "Unerreichbar” (AV live)</td>
+                                            <td>Valentin Tszin / Ilya Boordin present "Unerreichbar” (AV)</td>
                                             <td>Vladivostok, Golden Bridge</td>
                                         </tr>
                                         <tr>
@@ -292,17 +292,17 @@
                                         </tr>
                                         <tr>
                                             <td>01:00</td>
-                                            <td>Peter Kirn feat. Petr Termen, Todd Reynolds, VAVA (AV live)</td>
+                                            <td>Peter Kirn feat. Petr Termen, Todd Reynolds, VAVA (AV)</td>
                                             <td>Studio dB, Berlin</td>
                                         </tr>
                                         <tr>
                                             <td>02:00</td>
-                                            <td>Michael Tan (AV live)</td>
+                                            <td>Michael Tan (AV)</td>
                                             <td>Studio dB, Berlin</td>
                                         </tr>
                                         <tr>
                                             <td>02:30</td>
-                                            <td>Zoë Mc Pherson (AV live)</td>
+                                            <td>Zoë Mc Pherson (AV)</td>
                                             <td>Studio dB, Berlin</td>
                                         </tr>
                                         <tr>
@@ -366,15 +366,17 @@
         </div>
     </section>
 
+    <!--
     <section class="py-6 py-lg-7 register" id=content>
             <div class=container>
                <div class=row>
                <div class=form-group>
-                <a type=button href="https://disciplina.timepad.ru/event/1440675/" target="_blank" class="btn btn-primary btn-lg btn-block text-uppercase">Register</a>
+                <a type=button href="https://disciplina.timepad.ru/event/1440675/" target="_blank" class="btn btn-primary btn-lg btn-block text-uppercase">Learning Lab Register</a>
                </div>
                </div>
             </div>
          </section>
+    -->
 
     <section class="bg-primary pt-7 text-white">
             <div class=container>

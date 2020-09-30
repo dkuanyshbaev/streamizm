@@ -169,5 +169,21 @@
         </div>
         <script src=/static/js/theme.core.min.js></script>
         <script src=/static/js/theme.min.js></script>
+        <script src=/static/js/dash.all.min.js></script>
+        <script type="text/javascript">
+            var disabled_button_id = 0;
+            document.getElementById(disabled_button_id).disabled = true;
+
+            var url = "dash/0/stream.mpd";
+            var player = dashjs.MediaPlayer().create();
+            player.initialize(document.querySelector("#videoPlayer"), url, true);
+
+            function switch_view(button_id){
+                document.getElementById(button_id).disabled = true;
+                document.getElementById(disabled_button_id).disabled = false;
+                disabled_button_id = button_id;
+                player.attachSource("dash/" + button_id + "/stream.mpd");
+            }
+        </script>
     </body>
 </html>

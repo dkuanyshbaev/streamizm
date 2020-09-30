@@ -11,11 +11,21 @@
                             <div class=swiper-wrapper>
                                 <div class=swiper-slide>
                                     <p>You can use our Live player. All events can be viewed in high quality using multi-angles.</p>
-                                    <a href=#>
-                                        <picture>
-                                            <img src=/static/images/player.jpg alt=photo-02 class="img-fluid w-100">
-                                        </picture>
-                                    </a>
+
+                                    <video id="videoPlayer" class="video_player" poster="/static/images/player.jpg" muted autoplay controls></video>
+
+                                    <div class="buttons">
+                                    <button id="0" onclick="switch_view(this.id)" class="btn btn-info">0</button>
+                                    <button id="1" onclick="switch_view(this.id)" class="btn btn-info">1</button>
+                                    <button id="2" onclick="switch_view(this.id)" class="btn btn-info">2</button>
+                                    <button id="3" onclick="switch_view(this.id)" class="btn btn-info">3</button>
+                                    <button id="4" onclick="switch_view(this.id)" class="btn btn-info">4</button>
+                                    <button id="5" onclick="switch_view(this.id)" class="btn btn-info">5</button>
+                                    <button id="6" onclick="switch_view(this.id)" class="btn btn-info">6</button>
+                                    <button id="7" onclick="switch_view(this.id)" class="btn btn-info">7</button>
+                                    <button id="8" onclick="switch_view(this.id)" class="btn btn-info">8</button>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
