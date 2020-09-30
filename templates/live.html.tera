@@ -10,20 +10,24 @@
                         <div class="swiper-container swiper-scaled overflow-visible" data-options='{"centeredSlides": true, "slidesPerView": "auto", "loop": true, "spaceBetween": 64}'>
                             <div class=swiper-wrapper>
                                 <div class=swiper-slide>
-                                    <p>You can use our Live player. All events can be viewed in high quality using multi-angles.</p>
 
-                                    <video id="videoPlayer" class="video_player" poster="/static/images/player.jpg" muted autoplay controls></video>
+                                    <div class="row">
+                                        <div class="col-lg-12 p-4 p-lg-6">
 
-                                    <div class="buttons">
-                                    <button id="0" onclick="switch_view(this.id)" class="btn btn-info">0</button>
-                                    <button id="1" onclick="switch_view(this.id)" class="btn btn-info">1</button>
-                                    <button id="2" onclick="switch_view(this.id)" class="btn btn-info">2</button>
-                                    <button id="3" onclick="switch_view(this.id)" class="btn btn-info">3</button>
-                                    <button id="4" onclick="switch_view(this.id)" class="btn btn-info">4</button>
-                                    <button id="5" onclick="switch_view(this.id)" class="btn btn-info">5</button>
-                                    <button id="6" onclick="switch_view(this.id)" class="btn btn-info">6</button>
-                                    <button id="7" onclick="switch_view(this.id)" class="btn btn-info">7</button>
-                                    <button id="8" onclick="switch_view(this.id)" class="btn btn-info">8</button>
+                                            <p>You can use our Live player. All events can be viewed in high quality using multi-angles.</p>
+
+                                            <div class="video_player">
+                                                <video id="videoPlayer" muted autoplay controls></video>
+                                            </div>
+
+                                            <div class="buttons">
+                                                <button id="1" onclick="switch_view(this.id)" class="btn btn-info">1</button>
+                                                <button id="2" onclick="switch_view(this.id)" class="btn btn-info">2</button>
+                                                <button id="3" onclick="switch_view(this.id)" class="btn btn-info">3</button>
+                                                <button id="4" onclick="switch_view(this.id)" class="btn btn-info">4</button>
+                                            </div>
+
+                                        </div>
                                     </div>
 
                                 </div>
@@ -40,4 +44,3 @@
     </section>
 </main>
 {% endblock content %}
-

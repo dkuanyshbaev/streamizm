@@ -47,14 +47,9 @@ fn rocket() -> rocket::Rocket {
         .manage(config)
         .attach(Template::fairing())
         .mount("/static", StaticFiles::from("static/"))
-        .mount("/", routes![index, live, about, contact, send, auth])
+        .mount("/", routes![index, live, about, contact, send])
         .mount("/ru", routes![ru_index, ru_live, ru_about, ru_contact])
         .register(catchers![not_found])
-}
-
-#[get("/auth")]
-pub fn auth() -> String {
-    "Ok".to_string()
 }
 
 #[get("/")]

@@ -171,10 +171,10 @@
         <script src=/static/js/theme.min.js></script>
         <script src=/static/js/dash.all.min.js></script>
         <script type="text/javascript">
-            var disabled_button_id = 0;
+            var disabled_button_id = 1;
             document.getElementById(disabled_button_id).disabled = true;
 
-            var url = "dash/0/stream.mpd";
+            var url = "dash/1/stream.mpd";
             var player = dashjs.MediaPlayer().create();
             player.initialize(document.querySelector("#videoPlayer"), url, true);
 
