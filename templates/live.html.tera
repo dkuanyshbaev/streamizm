@@ -18,8 +18,8 @@
 
                                             <audio id="audioPlayer" muted autoplay controls hidden></audio>
 
-                                            <div>
-                                                <video id="videoPlayer" class="video_player" muted autoplay controls></video>
+                                            <div class = "video_player">
+                                                <video src="/static/1.mp4" width=1920 id="videoPlayer" class="video_player1" muted autoplay controls></video>
                                             </div>
 
                                             <div class="buttons">

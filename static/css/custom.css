@@ -59,6 +59,16 @@
 }
 
 .video_player {
-    max-width: 400px;
-    height: auto;
+    /* position: absolute; */
+    /* right: 0; */
+    /* bottom: 0; */
+    min-width: 100%;
+    /* min-height: 100%; */
+    /* max-width: 1920px; */
+    /* max-height: 600px; */
+    /* width: auto; */
+    /* height: auto; */
+    /* z-index: -100; */
+    background-size: cover;
+    overflow: hidden;
 }

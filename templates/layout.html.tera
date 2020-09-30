@@ -175,7 +175,8 @@
             var disabled_button_id = 1;
             document.getElementById(disabled_button_id).disabled = true;
 
-            var url = "dash/0/stream.mpd";
+            // var url = "dash/0/stream.mpd";
+            var url = "dash/1/stream.mpd";
             var audio_player = dashjs.MediaPlayer().create();
             audio_player.initialize(document.querySelector("#audioPlayer"), url, true);
 
