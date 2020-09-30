@@ -175,16 +175,13 @@
             var disabled_button_id = 1;
             document.getElementById(disabled_button_id).disabled = true;
 
+            var url = "dash/0/stream.mpd";
+            var audio_player = dashjs.MediaPlayer().create();
+            audio_player.initialize(document.querySelector("#audioPlayer"), url, true);
+
             var url = "dash/1/stream.mpd";
             var player = dashjs.MediaPlayer().create();
             player.initialize(document.querySelector("#videoPlayer"), url, true);
-
-            function switch_view(button_id){
-                document.getElementById(button_id).disabled = true;
-                document.getElementById(disabled_button_id).disabled = false;
-                disabled_button_id = button_id;
-                player.attachSource("dash/" + button_id + "/stream.mpd");
-            }
         </script>
     </body>
 </html>
