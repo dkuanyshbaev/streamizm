@@ -1,5 +1,5 @@
 function audio_play() {
-    var ap = document.getElementById('audioPlayer');
+    var ap = document.getElementById('videoPlayer');
     var btn = document.getElementById('mute_unmute');
 
     if (ap.muted) {
