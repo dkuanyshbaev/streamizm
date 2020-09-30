@@ -16,11 +16,14 @@
 
                                             <p>You can use our Live player. All events can be viewed in high quality using multi-angles.</p>
 
-                                            <div class="video_player">
-                                                <video id="videoPlayer" muted autoplay controls></video>
+                                            <audio id="audio_player" muted autoplay controls hidden></audio>
+
+                                            <div class="video_player1">
+                                                <video id="videoPlayer" class="video_player" muted autoplay controls></video>
                                             </div>
 
                                             <div class="buttons">
+                                                <button class="btn btn-info" id="mute_unmute" onclick="audio_play()">Unmute</button>
                                                 <button id="1" onclick="switch_view(this.id)" class="btn btn-info">1</button>
                                                 <button id="2" onclick="switch_view(this.id)" class="btn btn-info">2</button>
                                                 <button id="3" onclick="switch_view(this.id)" class="btn btn-info">3</button>

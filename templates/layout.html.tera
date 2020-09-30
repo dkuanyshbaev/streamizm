@@ -169,6 +169,7 @@
         </div>
         <script src=/static/js/theme.core.min.js></script>
         <script src=/static/js/theme.min.js></script>
+        <script src=/static/js/custom.js></script>
         <script src=/static/js/dash.all.min.js></script>
         <script type="text/javascript">
             var disabled_button_id = 1;
