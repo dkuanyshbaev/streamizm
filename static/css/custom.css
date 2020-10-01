@@ -78,12 +78,20 @@
 }
 
 .control {
+    /* display: none; */
+    /* margin-top: -48px; */
+    /* z-index: 43; */
 }
 
 .video_container {
     padding-bottom: 8px;
 }
 
+/* .video_player:hover + .control{ */
+/*     z-index: 42; */
+/*     display: block; */
+/* } */
+
 .little_margin {
-    /* margin: 1px; */
+    margin: 2px;
 }

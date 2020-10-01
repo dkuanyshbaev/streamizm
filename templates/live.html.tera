@@ -15,7 +15,7 @@
                                             <p>You can use our Live player. All events can be viewed in high quality using multi-angles.</p>
 
                                             <div class="video_container">
-                                                <video src="/static/1.mp4" id="videoPlayer" class="video_player" poster="/static/images/player.jpg" muted autoplay></video>
+                                                <video id="videoPlayer" class="video_player" poster="/static/images/player.jpg" muted autoplay></video>
 
                                                 <div class="control">
                                                     <button id="mute_unmute" onclick="audio_play()" class="btn btn-outline-info btn-sm little_margin">Unmute</button>
