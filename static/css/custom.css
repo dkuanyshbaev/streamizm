@@ -78,14 +78,12 @@
 }
 
 .control {
-    /* margin-top: -64px; */
-    /* z-index: 100; */
 }
 
 .video_container {
-  /* border:1px solid red; */
-  /* border-radius: .5em; */
-  padding:10px;
+    padding-bottom: 8px;
 }
 
-
+.little_margin {
+    /* margin: 1px; */
+}

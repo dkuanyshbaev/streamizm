@@ -15,16 +15,16 @@
                                             <p>You can use our Live player. All events can be viewed in high quality using multi-angles.</p>
 
                                             <div class="video_container">
-                                                <video src="/static/3.webm" id="videoPlayer" class="video_player" poster="/static/images/player.jpg" muted autoplay controls></video>
+                                                <video src="/static/1.mp4" id="videoPlayer" class="video_player" poster="/static/images/player.jpg" muted autoplay></video>
 
                                                 <div class="control">
-                                                    <button id="mute_unmute" onclick="audio_play()" class="btn btn-outline-info btn-sm">Unmute</button>
-                                                    <button id="1" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm">1</button>
-                                                    <button id="2" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm">2</button>
-                                                    <button id="3" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm">3</button>
-                                                    <button id="4" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm">4</button>
-                                                    <button id="5" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm">5</button>
-                                                    <button id="full_screen" onclick="full_screen()" class="btn btn-outline-info btn-sm">Fullscreen</button>
+                                                    <button id="mute_unmute" onclick="audio_play()" class="btn btn-outline-info btn-sm little_margin">Unmute</button>
+                                                    <button id="1" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm little_margin">1</button>
+                                                    <button id="2" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm little_margin">2</button>
+                                                    <button id="3" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm little_margin">3</button>
+                                                    <button id="4" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm little_margin">4</button>
+                                                    <button id="5" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm little_margin">5</button>
+                                                    <button id="full_screen" onclick="full_screen()" class="btn btn-outline-info btn-sm little_margin">Fullscreen</button>
                                                 </div>
                                             </div>
 
