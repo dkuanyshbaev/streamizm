@@ -4,8 +4,12 @@ extern crate rocket;
 #[macro_use]
 extern crate serde_derive;
 
-use lettre::transport::smtp::authentication::Credentials;
-use lettre::{Message, SmtpTransport, Transport};
+extern crate lettre;
+extern crate lettre_email;
+
+use lettre::smtp::authentication::IntoCredentials;
+use lettre::{SmtpClient, Transport};
+use lettre_email::EmailBuilder;
 use rocket::request::Form;
 use rocket::response::Redirect;
 use rocket::State;
@@ -104,25 +108,29 @@ pub fn ru_contact() -> Template {
 
 #[post("/send", data = "<letter>")]
 pub fn send(config: State<Config>, letter: Form<Letter>) -> Redirect {
-    let email = Message::builder()
-        .from(config.email.parse().unwrap())
-        .to(config.email.parse().unwrap())
+    match EmailBuilder::new()
+        .from(config.email.parse::<String>().unwrap())
+        .to(config.email.parse::<String>().unwrap())
         .subject("101Seasons.org - Contact message")
-        .body(format!(
+        .text(format!(
             "Name: {}. Email: {}. Message: {}",
             letter.name, letter.email, letter.message
         ))
-        .unwrap();
+        .build()
+    {
+        Ok(email) => {
+            let credentials =
+                (config.email.to_string(), config.password.to_string()).into_credentials();
 
-    let creds = Credentials::new(config.email.to_string(), config.password.to_string());
-    let mailer = SmtpTransport::relay("smtp.gmail.com")
-        .unwrap()
-        .credentials(creds)
-        .build();
+            let mut client = SmtpClient::new_simple("smtp.gmail.com")
+                .unwrap()
+                .credentials(credentials)
+                .transport();
 
-    match mailer.send(&email) {
-        Ok(_) => println!("Email sent successfully!"),
-        Err(e) => println!("Could not send email: {:?}", e),
+            let _result = client.send(email.into());
+            println!("Email sent successfully!");
+        }
+        Err(error) => println!("Email sending error: {:?}", error),
     }
 
     Redirect::to("/")
