@@ -16,7 +16,7 @@
                                             <p>You can use our Live player. All events can be viewed in high quality using multi-angles.</p>
 
                                             <div class = "video_player1">
-                                                <video src="/static/1.mp4" id="videoPlayer" class="video_player" muted autoplay controls></video>
+                                                <video id="videoPlayer" class="video_player" poster="/static/images/player.jpg" muted autoplay controls></video>
                                             </div>
 
                                             <div class="buttons">
@@ -33,10 +33,6 @@
 
                                 </div>
                             </div>
-                        </div>
-                        <div class="position-absolute left-0 top-50 container d-flex justify-content-between">
-                            <div class="swiper-btn swiper-btn-prev ml-n5 ml-lg-n6 ml-xl-n7" tabindex=0 role=button aria-label="Previous slide"></div>
-                            <div class="swiper-btn swiper-btn-next mr-n5 mr-lg-n6 mr-xl-n7" tabindex=0 role=button aria-label="Next slide"></div>
                         </div>
                     </div>
                 </div>

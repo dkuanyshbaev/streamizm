@@ -1,27 +1,39 @@
 {% extends "ru_layout" %}
 
+
 {% block content %}
 <main>
     <section class="bg-primary py-6 py-lg-7 text-white">
-        <div class="container-fluid px-0 play">
+        <div class="container-fluid px-0">
             <div class=row>
                 <div class=col>
                     <div class="swiper container position-relative">
                         <div class="swiper-container swiper-scaled overflow-visible" data-options='{"centeredSlides": true, "slidesPerView": "auto", "loop": true, "spaceBetween": 64}'>
                             <div class=swiper-wrapper>
                                 <div class=swiper-slide>
-                                    <p>Вы можете воспользоваться нашим Live плеером. Все события можно смотреть в высоком цифровом качестве с использованием мультиракурсов.</p>
-                                    <a href=#>
-                                        <picture>
-                                            <img src=/static/images/player.jpg alt=photo-02 class="img-fluid w-100">
-                                        </picture>
-                                    </a>
+
+                                    <div class="row">
+                                        <div class="col-lg-12 p-4 p-lg-6 text-center">
+                                            <p>Вы можете воспользоваться нашим Live плеером. Все события можно смотреть в высоком цифровом качестве с использованием мультиракурсов.</p>
+
+                                            <div class = "video_player1">
+                                                <video id="videoPlayer" class="video_player" poster="/static/images/player.jpg" muted autoplay controls></video>
+                                            </div>
+
+                                            <div class="buttons">
+                                                <button class="btn btn-outline-info btn-sm" id="mute_unmute" onclick="audio_play()">Unmute</button>
+                                                <button id="1" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm">1</button>
+                                                <button id="2" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm">2</button>
+                                                <button id="3" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm">3</button>
+                                                <button id="4" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm">4</button>
+                                                <button id="5" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm">5</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
-                        </div>
-                        <div class="position-absolute left-0 top-50 container d-flex justify-content-between">
-                            <div class="swiper-btn swiper-btn-prev ml-n5 ml-lg-n6 ml-xl-n7" tabindex=0 role=button aria-label="Previous slide"></div>
-                            <div class="swiper-btn swiper-btn-next mr-n5 mr-lg-n6 mr-xl-n7" tabindex=0 role=button aria-label="Next slide"></div>
                         </div>
                     </div>
                 </div>
