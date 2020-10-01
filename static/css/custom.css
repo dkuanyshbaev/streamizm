@@ -66,6 +66,7 @@
     /* min-height: 100%; */
     /* max-width: 1920px; */
     /* max-height: 600px; */
+    max-height: 95%;
     width: 100%;
     /* height: auto; */
     /* width: auto; */
@@ -73,9 +74,18 @@
     /* z-index: -100; */
     /* background-size: cover; */
     /* overflow: hidden; */
+    /* padding-bottom: 60px; */
 }
 
-.buttons {
-    align: center;
-
+.control {
+    /* margin-top: -64px; */
+    /* z-index: 100; */
 }
+
+.video_container {
+  /* border:1px solid red; */
+  /* border-radius: .5em; */
+  padding:10px;
+}
+
+
