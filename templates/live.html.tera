@@ -25,6 +25,7 @@
                                                     <button id="4" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm little_margin">4</button>
                                                     <button id="5" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm little_margin">5</button>
                                                     <button id="full_screen" onclick="full_screen()" class="btn btn-outline-info btn-sm little_margin">Fullscreen</button>
+                                                    <a href="https://pay.cloudtips.ru/p/84a72924" target="_blank" class="btn btn-outline-info btn-sm little_margin">Donate</a>
                                                 </div>
                                             </div>
 
@@ -38,7 +39,12 @@
                                                 <button id="5" onclick="switch_view(this.id)" class="btn btn-outline-info btn-sm">5</button>
                                             </div>
                                             -->
-
+                                            <br>
+                                            <p>You can watch our broadcasts on social networks:</p>
+                                            <a target="_blank" href="https://twitch.tv/101seasons" class="btn btn-outline-info btn-sm">Twitch</a>
+                                            <a target="_blank" href="https://instagram.com/101remoteseasons?igshid=rgw1lwwl7a66" class="btn btn-outline-info btn-sm">Instagram</a>
+                                            <a target="_blank" href="https://facebook.com/101remoteseasons/" class="btn btn-outline-info btn-sm">Facebook</a>
+                                            <a target="_blank" href="https://youtube.com/channel/UCwCq1E2hvMklGx8-S47Ga9w" class="btn btn-outline-info btn-sm">YouTube</a>
                                         </div>
                                     </div>
                                 </div>
