@@ -70,7 +70,6 @@
                                 <p>Artist talks and workshops by:</p>
 
                                 <p><b>Peter Kirn</b> [US/DE]
-                                <br><b>cables.gl</b> [DE]
                                 <br><b>Vadim Epstein</b> [RU]
                                 <br><b>Valentin Tszin</b> [RU/DE]
                                 <br><b>Ilya Boordin</b> [RU]</p>
@@ -143,45 +142,38 @@
                                             <th scope=col>Title</th>
                                             <th scope=col>Artist</th>
                                             <th scope=col>Language</th>
+                                            <th scope=col>Location</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                          <tbody>
                                         <tr>
                                             <td>19:00</td>
-                                            <td>Artist talk (Opening)</td>
-                                            <td>Valentin Tszin / Ilya Boordin</td>
+                                            <td>Opening talk</td>
+                                            <td>Valentin Tszin / Ilya Boordin / Peter Kirn</td>
                                             <td>En/Ru</td>
+                                            <td>Studio dB, Berlin</td>
                                         </tr>
                                         <tr>
                                             <td>20:00</td>
-                                            <td>Workshop: Visual generation</td>
-                                            <td>cables.gl</td>
+                                            <td>Discussion: butoh as evolving medium and its radical directions in Germany</td>
+                                            <td>Valentin Tszin / Daniel Williams</td>
                                             <td>En/Ru</td>
+                                            <td>Studio dB, Berlin</td>
                                         </tr>
                                         <tr>
                                             <td>21:00</td>
                                             <td>Workshop: Discover modular synthesis with free software in VCV Rack</td>
                                             <td>Peter Kirn</td>
                                             <td>En/Ru</td>
+                                            <td>Studio dB, Berlin</td>
                                         </tr>
                                         <tr>
                                             <td>22:00</td>
                                             <td>Discussion: Artificial intelligence as artistic medium</td>
                                             <td>Vadim Epstein</td>
                                             <td>En/Ru</td>
-                                        </tr>
-                                        <tr>
-                                            <td>20:00</td>
-                                            <td>Discussion: butoh as evolving medium and its radical directions in Germany</td>
-                                            <td>Valentin Tszin, Daniel Williams</td>
-                                            <td>En/Ru</td>
-                                        </tr>
-                                        <tr>
-                                            <td>21:00</td>
-                                            <td>Butoh class online</td>
-                                            <td>Valentin Tszin</td>
-                                            <td>En/Ru</td>
+                                            <td>Online, Moscow</td>
                                         </tr>
                                     </tbody>
                                     </tbody>
@@ -296,7 +288,7 @@
                                             <td>Studio dB, Berlin</td>
                                         </tr>
                                         <tr>
-                                            <td>02:00</td>
+                                            <td>01:45</td>
                                             <td>Michael Tan (AV)</td>
                                             <td>Studio dB, Berlin</td>
                                         </tr>
@@ -307,23 +299,23 @@
                                         </tr>
                                         <tr>
                                             <td>03:30</td>
-                                            <td>Hubert Spangler (DJ)</td>
-                                            <td>Studio dB, Berlin</td>
-                                        </tr>
-                                        <tr>
-                                            <td>04:30</td>
                                             <td>X tin (DJ)</td>
                                             <td>Studio dB, Berlin</td>
                                         </tr>
                                         <tr>
+                                            <td>04:30</td>
+                                            <td>Dasha Rush (DJ)</td>
+                                            <td>Mutabor, Москва</td>
+                                        </tr>
+                                        <tr>
                                             <td>05:30</td>
-                                            <td>Magna Pia (DJ)</td>
+                                            <td>Bloomfeld (DJ)</td>
                                             <td>Studio dB, Berlin</td>
                                         </tr>
                                         <tr>
                                             <td>06:30</td>
-                                            <td>Dasha Rush (DJ)</td>
-                                            <td>Mutabor, Москва</td>
+                                            <td>Magna Pia (DJ)</td>
+                                            <td>Studio dB, Berlin</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -366,7 +358,6 @@
         </div>
     </section>
 
-    <!--
     <section class="py-6 py-lg-7 register" id=content>
             <div class=container>
                <div class=row>
@@ -376,7 +367,6 @@
                </div>
             </div>
          </section>
-    -->
 
     <section class="bg-primary pt-7 text-white">
             <div class=container>

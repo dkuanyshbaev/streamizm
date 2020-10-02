@@ -156,44 +156,37 @@
                                             <th scope=col>Название</th>
                                             <th scope=col>Артист</th>
                                             <th scope=col>Язык</th>
+                                            <th scope=col>Площадка</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td>19:00</td>
                                             <td>Диалог с артистами (Открытие)</td>
-                                            <td>Valentin Tszin / Ilya Boordin</td>
+                                            <td>Valentin Tszin / Ilya Boordin / Peter Kirn</td>
                                             <td>Английский/Русский</td>
-                                        </tr>
-                                        <tr>
-                                            <td>20:00</td>
-                                            <td>Воркшоп: Визуальная генерация</td>
-                                            <td>cables.gl</td>
-                                            <td>Английский/Русский</td>
-                                        </tr>
-                                        <tr>
-                                            <td>21:00</td>
-                                            <td>Воркшоп: Откройте для себя модульный синтез с помощью бесплатного программного обеспечения в VCV Rack</td>
-                                            <td>Peter Kirn</td>
-                                            <td>Английский/Русский</td>
-                                        </tr>
-                                        <tr>
-                                            <td>22:00</td>
-                                            <td>Мастер-класс: Искусственный интеллект как художественная среда</td>
-                                            <td>Vadim Epstein</td>
-                                            <td>Английский/Русский</td>
+                                            <td>Studio dB, Берлин</td>
                                         </tr>
                                         <tr>
                                             <td>20:00</td>
                                             <td>Дискуссия: Буто как развивающаяся среда и ее радикальные направления в Германии</td>
                                             <td>Valentin Tszin, Daniel Williams</td>
                                             <td>Английский/Русский</td>
+                                            <td>Studio dB, Берлин</td>
                                         </tr>
                                         <tr>
                                             <td>21:00</td>
-                                            <td>Онлайн-класс буто</td>
-                                            <td>Valentin Tszin</td>
+                                            <td>Воркшоп: Откройте для себя модульный синтез с помощью бесплатного программного обеспечения в VCV Rack</td>
+                                            <td>Peter Kirn</td>
                                             <td>Английский/Русский</td>
+                                            <td>Studio dB, Берлин</td>
+                                        </tr>
+                                        <tr>
+                                            <td>22:00</td>
+                                            <td>Мастер-класс: Искусственный интеллект как художественная среда</td>
+                                            <td>Vadim Epstein</td>
+                                            <td>Английский/Русский</td>
+                                            <td>Online, Москва</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -305,7 +298,7 @@
                                             <td>Studio dB, Берлин</td>
                                         </tr>
                                         <tr>
-                                            <td>02:00</td>
+                                            <td>01:45</td>
                                             <td>Michael Tan (AV)</td>
                                             <td>Studio dB, Берлин</td>
                                         </tr>
@@ -316,23 +309,23 @@
                                         </tr>
                                         <tr>
                                             <td>03:30</td>
-                                            <td>Hubert Spangler (DJ)</td>
-                                            <td>Studio dB, Берлин</td>
-                                        </tr>
-                                        <tr>
-                                            <td>04:30</td>
                                             <td>X tin (DJ)</td>
                                             <td>Studio dB, Берлин</td>
                                         </tr>
                                         <tr>
+                                            <td>04:30</td>
+                                            <td>Dasha Rush (DJ)</td>
+                                            <td>Mutabor, Москва</td>
+                                        </tr>
+                                        <tr>
                                             <td>05:30</td>
-                                            <td>Magna Pia (DJ)</td>
+                                            <td>Bloomfeld (DJ)</td>
                                             <td>Studio dB, Берлин</td>
                                         </tr>
                                         <tr>
                                             <td>06:30</td>
-                                            <td>Dasha Rush (DJ)</td>
-                                            <td>Mutabor, Москва</td>
+                                            <td>Magna Pia (DJ)</td>
+                                            <td>Studio dB, Берлин</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -376,7 +369,6 @@
         </div>
     </section>
 
-    <!--
     <section class="py-6 py-lg-7 register" id=content>
             <div class=container>
                <div class=row>
@@ -386,7 +378,6 @@
                </div>
             </div>
          </section>
-         -->
 
     <section class="bg-primary pt-7 text-white">
             <div class=container>
