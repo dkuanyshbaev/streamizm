@@ -288,7 +288,7 @@
                                         <tr>
                                             <td>01:00</td>
                                             <td>17:00</td>
-                                            <td>Peter Kirn feat. Petr Termen, Todd Reynolds, VAVA (AV)</td>
+                                            <td>Peter Kirn feat. Petr Termen, Todd Reynolds, Johhan Rosenberg (AV)</td>
                                             <td>Studio dB, Берлин</td>
                                         </tr>
                                         <tr>
@@ -349,8 +349,8 @@
                                     <tbody>
                                         <tr>
                                             <td>12:00</td>
-                                            <td>Диалог с артистами (Закрытие)</td>
-                                            <td>Valentin Tszin / Ilya Boordin / Piter Kirn</td>
+                                            <td>AV launch intro</td>
+                                            <td>Serj Abarok & Natasha Monomo "Bowhead Whale Music"</td>
                                             <td>Английский/Русский</td>
                                         </tr>
                                         <tr>
@@ -369,6 +369,7 @@
         </div>
     </section>
 
+    <!--
     <section class="py-6 py-lg-7 register" id=content>
             <div class=container>
                <div class=row>
@@ -378,6 +379,7 @@
                </div>
             </div>
          </section>
+         -->
 
     <section class="bg-primary pt-7 text-white">
             <div class=container>
